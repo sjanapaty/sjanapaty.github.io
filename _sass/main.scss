@@ -10,5 +10,6 @@ body {
 }
 
 body a {
-  color: $linkColor
+  text-decoration: none;
+  color: $linkColor;
 }
