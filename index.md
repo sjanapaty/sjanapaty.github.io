@@ -2,8 +2,6 @@
 layout: home
 title: "Home"
 ---
+Shloka is a fourth-year undergraduate at Columbia University studying Applied Mathematics with a view towards ecology. Her academic interests lie in biogeochemistry, theoretical ecology, and waste management. She aims to use tools from mathematics and computer science to investigate plant-microbial communities in their changing geochemical environments. 
 
-Hello this is Shloka
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
-
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+Shloka is particularly interested in biocrusts, communities of cyanobacteria, lichen, and nonvascular plants that extensively cover the global terrestrial surface. She is currently working with Mingzhen and Chris Kempes on the emergence of spatiotemporal order in biocrust communities from simple growth, death, and competitive constraints.
