@@ -1,11 +1,13 @@
 featured:
-- author: 'Janapaty, S. V. (2023)'
+- shloka: 'Janapaty, S. V.'
+  author: ' (2023)'
   title: 'A Chip-Firing Game for Biocrust Reverse Succession'
   publication_details: 'arXiv preprint arXiv:2305.05193.'
   url: 'https://arxiv.org/abs/2305.05193'
 
 index:
-- author: 'Janapaty, S. V. (2023)'
+- shloka: 'Janapaty, S. V.'
+  author: ' (2023)'
   title: 'A Chip-Firing Game for Biocrust Reverse Succession'
   publication_details: 'arXiv preprint arXiv:2305.05193.'
   url: 'https://arxiv.org/abs/2305.05193'
