@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-<div class="row g-5 mb-5">
+<div class="row g-5 mb-2">
   <div class="col-md-6">
     <h3 class="fw-bold">Research</h3>
     {{ content }}
@@ -14,9 +13,10 @@ layout: default
 
 {% include publications.html %}
 
-<div class="row g-5 mb-5">
+<div class="row g-5 mb-2">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-1 mb-1">Miscellaneous Writing</h3>
+    <h3 class="fw-bold border-bottom pb-2 mb-2">Other Written Work</h3>
+    <p>My publications and more informal written work, including notes from textbooks and papers that I'm excited about! Notes are denoted (Note).</p>
     {% for post in site.posts %}
       <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
     {% endfor %}
