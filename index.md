@@ -2,7 +2,7 @@
 layout: home
 title: "Home"
 ---
-I'm a PhD student in Ecology and Evolutionary Biology at Princeton University advised by [Simon Levin](https://eeb.princeton.edu/people/simon-levin) and [Lars Hedin](https://eeb.princeton.edu/people/lars-hedin). I'm also recent graduate of Columbia University, where I studied Applied Mathematics. My research is supported by an NSF Graduate Research Fellowship and a Straubel Fellowship.
+I'm a PhD student in Ecology and Evolutionary Biology at Princeton advised by [Simon Levin](https://eeb.princeton.edu/people/simon-levin) and [Lars Hedin](https://eeb.princeton.edu/people/lars-hedin). I'm also recent graduate of Columbia University, where I studied Applied Mathematics. My research is supported by an NSF Graduate Research Fellowship and a Straubel Fellowship.
 
 The kind of ecological theory I enjoy most is:
 <ul>
@@ -13,4 +13,4 @@ The kind of ecological theory I enjoy most is:
 
 My PhD work is at the intersection of biogeochemistry and theoretical ecology. I am particularly interested in using tools from mathematics to examine the role of resource allocation strategies in community assembly, especially in: (1) the trajectory from pioneer to seral communities, (2) spatial vegetation patterning, and (3) animal mortality.
 
-Previously, I worked with [Erwan Monier](https://lawr.ucdavis.edu/people/faculty/monier-erwan) at UC Davis on carbon and nitrogen cycling in biocrusts. I was also at the [Santa Fe Institute](https://www.santafe.edu/) developing a model of resource competition in biocrust communities with [Mingzhen Lu](https://www.mingzhenlu-lab.com/) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes).
+Previously, I worked with [Erwan Monier](https://lawr.ucdavis.edu/people/faculty/monier-erwan) (UC Davis) on carbon and nitrogen cycling in biocrusts. I was also at the [Santa Fe Institute](https://www.santafe.edu/) developing a model of resource competition in biocrusts with [Mingzhen Lu](https://www.mingzhenlu-lab.com/) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes).
