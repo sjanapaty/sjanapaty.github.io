@@ -8,7 +8,7 @@ I aim to use tools rooted in mathematics and computer science to investigate lif
 <ul>
   <li>low-dimensional: what is the simplest, most elegant representation of this problem?</li>
   <li>cross-disciplinary: where different fields interface and new applications arise</li>
-  <li>meaningful: provides fundamental insight into animal welfare, vulnerable biogeochemical stocks and other neglected problems</li>
+  <li>meaningful: provides fundamental insight into animal welfare, vulnerable biogeochemical stocks, and other neglected problems</li>
 </ul>  
 
 Previously, I worked with [Erwan Monier](https://lawr.ucdavis.edu/people/faculty/monier-erwan) at UC Davis on biocrust contributions to the global carbon and nitrogen budget. I was also at the [Santa Fe Institute](https://www.santafe.edu/) developing a model of biocrust growth, death, and competitive controls on regional biogeochemistry with [Mingzhen Lu](https://www.mingzhenlu-lab.com/) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes). My research is supported by an NSF Graduate Research Fellowship and a Straubel Fellowship.
