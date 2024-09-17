@@ -12,5 +12,3 @@ I aim to use tools from mathematics to investigate life in its changing geochemi
 </ul>  
 
 Previously, I worked with [Erwan Monier](https://lawr.ucdavis.edu/people/faculty/monier-erwan) at UC Davis on biocrust contributions to the global carbon and nitrogen budget. I was also at the [Santa Fe Institute](https://www.santafe.edu/) developing a model of biocrust growth, death, and competitive controls on regional biogeochemistry with [Mingzhen Lu](https://www.mingzhenlu-lab.com/) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes).
-
-When I’m not doing research, I’m watching [IMDb's Top 250](https://www.imdb.com/user/ur130076546/?ref_=nv_usr_prof_2) movies, thinking about ethics and epistemology, [reading](https://www.goodreads.com/user/show/145758547-shloka), or spending time outdoors!
