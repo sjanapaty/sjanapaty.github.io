@@ -2,7 +2,7 @@
 layout: home
 title: "Home"
 ---
-I'm a PhD student in Ecology and Evolutionary Biology at Princeton advised by [Simon Levin](https://eeb.princeton.edu/people/simon-levin) and [Lars Hedin](https://eeb.princeton.edu/people/lars-hedin). I'm also recent graduate of Columbia University, where I studied Applied Mathematics. My research is supported by an NSF Graduate Research Fellowship and a Straubel Fellowship.
+I'm a PhD student in Ecology and Evolutionary Biology at Princeton advised by [Simon Levin](https://eeb.princeton.edu/people/simon-levin) and [Lars Hedin](https://eeb.princeton.edu/people/lars-hedin). I'm also a recent graduate of Columbia University, where I studied Applied Mathematics. My research is supported by an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/about/about-grfp/) and a Straubel Fellowship.
 
 The kind of ecological theory I enjoy most is:
 <ul>
