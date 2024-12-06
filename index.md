@@ -15,6 +15,6 @@ I am particularly interested in using tools from mathematics and computer scienc
 <ol>
   <li> <b>resource acquisition</b> strategies in plant community assembly, especially in nutrient poor soils</li>
   <li> <b>resource allocation</b> strategies in wild animals, especially phenotypic plasticity in life-history strategies on short evolutionary time scales.</li>
-</ol
+</ol>
 
 Previously, I worked with [Erwan Monier](https://lawr.ucdavis.edu/people/faculty/monier-erwan) (UC Davis) on carbon and nitrogen cycling in biocrusts. I was also at the [Santa Fe Institute](https://www.santafe.edu/) developing a model of resource competition in biocrusts with [Mingzhen Lu](https://www.mingzhenlu-lab.com/) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes).
