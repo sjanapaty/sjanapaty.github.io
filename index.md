@@ -6,11 +6,15 @@ I'm a PhD student in Ecology and Evolutionary Biology at Princeton advised by [S
 
 The kind of ecological theory I enjoy most is:
 <ul>
-    <li><b>low-dimensional</b>: what is the simplest representation of this problem?</li>
+    <li><b>low-dimensional</b>: what is the simplest description of this problem that explains the most variance?</li>
     <li><b>cross-disciplinary</b>: where different fields interface and new applications arise</li>
     <li><b>meaningful</b>: provides fundamental insight into animal welfare, vulnerable biogeochemical stocks, and other neglected problems</li>
 </ul>  
 
-My PhD work is at the intersection of biogeochemistry and theoretical ecology. I am particularly interested in using tools from mathematics to examine the role of <b>resource allocation strategies in community assembly</b>, especially in: (1) the trajectory from pioneer to seral communities, (2) spatial vegetation patterning, and (3) animal mortality.
+I am particularly interested in using tools from mathematics and computer science to examine:
+<ol>
+  <li> <b>resource acquisition</b> strategies in plant community assembly, especially in nutrient poor soils</li>
+  <li> <b>resource allocation</b> strategies in wild animals, especially phenotypic plasticity in life-history strategies on short evolutionary time scales.</li>
+</ol
 
 Previously, I worked with [Erwan Monier](https://lawr.ucdavis.edu/people/faculty/monier-erwan) (UC Davis) on carbon and nitrogen cycling in biocrusts. I was also at the [Santa Fe Institute](https://www.santafe.edu/) developing a model of resource competition in biocrusts with [Mingzhen Lu](https://www.mingzhenlu-lab.com/) and [Chris Kempes](https://www.santafe.edu/people/profile/chris-kempes).
