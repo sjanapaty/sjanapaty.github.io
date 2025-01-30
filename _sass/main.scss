@@ -16,13 +16,12 @@ body a {
 
 a {
   text-decoration: none;
-  background: linear-gradient(transparent 50%, rgba(255, 221, 103, 0.5) 50%);
-  box-decoration-break: clone;
-  border-radius: 4px;
-  padding: 0 2px;
-  transition: background 0.2s ease-in-out;
+  background-color: rgba(200, 255, 200, 0.5); /* Light green highlight */
+  border-radius: 6px; /* Rounded corners */
+  padding: 2px 6px; /* Padding around the text */
+  transition: background-color 0.2s ease-in-out;
 }
 
 a:hover {
-  background: linear-gradient(transparent 50%, rgba(255, 221, 103, 0.8) 50%);
+  background-color: rgba(200, 255, 200, 0.8); /* Slightly darker on hover */
 }
