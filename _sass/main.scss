@@ -1,12 +1,15 @@
+
+/* Georgia font implementation */
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyFont: Georgia, serif;
 $linkColor: #18af04 !important;
 
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  line-height: 1.5;
 }
 
 body a {
