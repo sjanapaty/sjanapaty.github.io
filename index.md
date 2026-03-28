@@ -17,4 +17,4 @@ I am particularly interested in using tools from mathematics and computer scienc
   <li> <b>resource allocation</b> strategies in wild animals, especially phenotypic plasticity in life-history strategies on short evolutionary time scales.</li>
 </ol>
 
-You can find my [blog](https://eeb.princeton.edu/people/lars-hedin) here!
+You can find my [blog](https://shlokaj.substack.com/) here!
