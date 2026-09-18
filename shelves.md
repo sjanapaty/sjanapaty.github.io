@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: default
 title: "Digital Shelves"
 permalink: /shelves/
 ---
+
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
 
 <h4 class="fw-bold mt-4">Past</h4>
 <h5 class="mt-3 mb-2">2026</h5>
@@ -66,3 +69,6 @@ permalink: /shelves/
   <li><b>No Country for Old Men</b> by Cormac McCarthy</li>
   <li><a href="https://shlokavjanapaty.notion.site/The-Sixth-Extinction-Kolbert-a1f63751392d444d88f064b964846795?pvs=74">The Sixth Extinction</a> by Elizabeth Kolbert</li>
 </ul>
+
+  </div>
+</div>
