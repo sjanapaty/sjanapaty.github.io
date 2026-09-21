@@ -1,0 +1,2240 @@
+{
+ "width": 1375,
+ "height": 814,
+ "hotspots": [
+  {
+   "code": 6098,
+   "name": "East Venezuela Basin",
+   "country": "Venezuela",
+   "city": "Ciudad Guayana",
+   "city_km": 116,
+   "discovered": 1936,
+   "fields": "Orinoco Heavy Oil Belt; El Furrial; Oficina",
+   "total": 350.0,
+   "past": 21.0,
+   "future": 329.0,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 332.5
+    },
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 17.5
+    }
+   ],
+   "x": 0.35235,
+   "y": 0.36555,
+   "r": 0.01857,
+   "note": "Orinoco extra-heavy oil belt, charged by Querecual and San Antonio (Cenomanian-Santonian); the 2000 assessment covered conventional oil only, so the USGS figure of 30 billion barrels omits the belt"
+  },
+  {
+   "code": 2024,
+   "name": "Mesopotamian Foredeep Basin",
+   "country": "Iraq",
+   "city": "Basra",
+   "city_km": 47,
+   "discovered": 1927,
+   "fields": "Burgan; Rumaila; West Qurna; Majnoon; Kirkuk",
+   "total": 330.0,
+   "past": 56.7,
+   "future": 273.3,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 181.5
+    },
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 148.5
+    }
+   ],
+   "x": 0.6067,
+   "y": 0.26901,
+   "r": 0.01599,
+   "note": "Sargelu and Naokelekan (Jurassic) with Garau and Sulaiy (Cretaceous); raised toward Iraqi and Kuwaiti reserves plus cumulative production"
+  },
+  {
+   "code": 2021,
+   "name": "Greater Ghawar Uplift",
+   "country": "Saudi Arabia",
+   "city": "Doha",
+   "city_km": 203,
+   "discovered": 1940,
+   "fields": "Ghawar; Abqaiq; Khurais; Berri",
+   "total": 230.0,
+   "past": 57.7,
+   "future": 172.3,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 218.5
+    },
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 11.5
+    }
+   ],
+   "x": 0.61383,
+   "y": 0.29743,
+   "r": 0.01674,
+   "note": "Hanifa and Tuwaiq Mountain (Upper Jurassic) charge Ghawar; note this is a different source rock from the Silurian that charges the gas"
+  },
+  {
+   "code": 2030,
+   "name": "Zagros Fold Belt",
+   "country": "Iran",
+   "city": "Ahvaz",
+   "city_km": 104,
+   "discovered": 1908,
+   "fields": "Masjed Soleyman; Gachsaran; Aghajari; Ahvaz; Marun",
+   "total": 230.0,
+   "past": 49.4,
+   "future": 180.6,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 138.0
+    },
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 34.5
+    },
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 23.0
+    }
+   ],
+   "x": 0.60876,
+   "y": 0.26259,
+   "r": 0.01495,
+   "note": "Kazhdumi (Albian) and Garau for Iranian oil; Pabdeh (Paleogene) in other; raised toward Iranian reserves plus cumulative"
+  },
+  {
+   "code": 5243,
+   "name": "Alberta Basin",
+   "country": "Canada",
+   "city": "Edmonton",
+   "city_km": 281,
+   "discovered": 1947,
+   "fields": "Athabasca Oil Sands; Pembina; Leduc",
+   "total": 200.0,
+   "past": 36.0,
+   "future": 164.0,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 110.0
+    },
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 30.0
+    }
+   ],
+   "x": 0.27639,
+   "y": 0.15807,
+   "r": 0.01414,
+   "note": "Athabasca and Peace River oil sands, charged from Exshaw and Duvernay (Devonian-Mississippian) and Nordegg (Lower Jurassic, in other); oil sands are excluded from the conventional assessment"
+  },
+  {
+   "code": 1174,
+   "name": "West Siberian Basin",
+   "country": "Russia",
+   "city": "Surgut",
+   "city_km": 470,
+   "discovered": 1960,
+   "fields": "Samotlor; Priobskoye; Lyantorskoye; Fyodorovskoye",
+   "total": 200.0,
+   "past": 46.5,
+   "future": 153.5,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 170.0
+    },
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 20.0
+    }
+   ],
+   "x": 0.63549,
+   "y": 0.11977,
+   "r": 0.01574,
+   "note": "Bazhenov (Tithonian) is the oil source, unlike the Cenomanian Pokur that charges the gas"
+  },
+  {
+   "code": 2019,
+   "name": "Rub Al Khali Basin",
+   "country": "Saudi Arabia",
+   "city": "Abu Dhabi",
+   "city_km": 369,
+   "discovered": 1951,
+   "fields": "Safaniya; Zuluf; Shaybah; Upper Zakum",
+   "total": 150.0,
+   "past": 19.3,
+   "future": 130.7,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 105.0
+    },
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 45.0
+    }
+   ],
+   "x": 0.62086,
+   "y": 0.3102,
+   "r": 0.01398,
+   "note": "Upper Jurassic with Shuaiba and other Cretaceous sources; raised toward Emirati and Saudi reserves"
+  },
+  {
+   "code": 1015,
+   "name": "Volga-Ural Region",
+   "country": "Russia",
+   "city": "Ufa",
+   "city_km": 203,
+   "discovered": 1929,
+   "fields": "Romashkino; Tuymazinskoe; Arlanskoye",
+   "total": 75.0,
+   "past": 42.7,
+   "future": 32.3,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 63.8
+    },
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 11.2
+    }
+   ],
+   "x": 0.6039,
+   "y": 0.1629,
+   "r": 0.01238,
+   "note": "Domanik (Frasnian); raised for cumulative production"
+  },
+  {
+   "code": 6099,
+   "name": "Maracaibo Basin",
+   "country": "Venezuela",
+   "city": "M\u00e9rida",
+   "city_km": 111,
+   "discovered": 1914,
+   "fields": "Bolivar Coastal; Lagunillas; Tia Juana",
+   "total": 75.0,
+   "past": 35.6,
+   "future": 39.4,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 75.0
+    }
+   ],
+   "x": 0.33207,
+   "y": 0.36517,
+   "r": 0.01288,
+   "note": "La Luna (Cenomanian-Campanian); raised for cumulative production, which is large and old"
+  },
+  {
+   "code": 7192,
+   "name": "Niger Delta",
+   "country": "Nigeria",
+   "city": "Port Harcourt",
+   "city_km": 234,
+   "discovered": 1956,
+   "fields": "Oloibiri; Forcados Yokri; Bonga",
+   "total": 70.0,
+   "past": 16.6,
+   "future": 53.4,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 59.5
+    }
+   ],
+   "x": 0.51323,
+   "y": 0.3929,
+   "r": 0.01217,
+   "note": "Akata and Agbada; raised toward Nigerian reserves plus cumulative"
+  },
+  {
+   "code": 2043,
+   "name": "Sirte Basin",
+   "country": "Libya",
+   "city": "Banghazi",
+   "city_km": 330,
+   "discovered": 1959,
+   "fields": "Zelten (Nasser); Sarir; Bouri",
+   "total": 65.0,
+   "past": 14.0,
+   "future": 51.0,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 32.5
+    }
+   ],
+   "x": 0.54556,
+   "y": 0.27635,
+   "r": 0.01051,
+   "note": "Sirte Shale (Campanian) in other; Rachmat and Etel (Turonian) in mid-Cretaceous; raised toward Libyan reserves"
+  },
+  {
+   "code": 4025,
+   "name": "North Sea Graben",
+   "country": "United Kingdom",
+   "city": "Edinburgh",
+   "city_km": 299,
+   "discovered": 1969,
+   "fields": "Ekofisk; Forties; Statfjord; Johan Sverdrup",
+   "total": 60.0,
+   "past": 22.5,
+   "future": 37.5,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 60.0
+    }
+   ],
+   "x": 0.50047,
+   "y": 0.15001,
+   "r": 0.0122,
+   "note": "Kimmeridge Clay and Draupne; no Carboniferous contribution to oil, unlike the gas"
+  },
+  {
+   "code": 5044,
+   "name": "Permian Basin",
+   "country": "United States of America",
+   "city": "El Paso",
+   "city_km": 352,
+   "discovered": 1921,
+   "fields": "Spraberry Trend; Yates; Wasson",
+   "total": 60.0,
+   "past": 34.8,
+   "future": 25.2,
+   "intervals": [
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 42.0
+    },
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 15.0
+    }
+   ],
+   "x": 0.26972,
+   "y": 0.26338,
+   "r": 0.01118,
+   "note": "Wolfcamp, Bone Spring and Spraberry (Permian); Woodford secondary; US not covered by the 2000 world assessment"
+  },
+  {
+   "code": 1016,
+   "name": "North Caspian Basin",
+   "country": "Kazakhstan",
+   "city": "Atyrau",
+   "city_km": 164,
+   "discovered": 1978,
+   "fields": "Tengiz; Kashagan; Karachaganak",
+   "total": 45.0,
+   "past": 0.8,
+   "future": 44.2,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 22.5
+    },
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 18.0
+    }
+   ],
+   "x": 0.60517,
+   "y": 0.19022,
+   "r": 0.00962,
+   "note": "Tengiz, Kashagan and Karachaganak; Domanik-type Devonian-Carboniferous sources"
+  },
+  {
+   "code": 5305,
+   "name": "Villahermosa Uplift",
+   "country": "Mexico",
+   "city": "Tuxtla Guti\u00e9rrez",
+   "city_km": 227,
+   "discovered": 1976,
+   "fields": "Cantarell; Ku-Maloob-Zaap",
+   "total": 35.0,
+   "past": 14.6,
+   "future": 20.4,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 35.0
+    }
+   ],
+   "x": 0.28598,
+   "y": 0.32326,
+   "r": 0.0107,
+   "note": "Tithonian source, Mexican southeastern basins"
+  },
+  {
+   "code": 5047,
+   "name": "Western Gulf",
+   "country": "United States of America",
+   "city": "San Antonio",
+   "city_km": 99,
+   "discovered": 1930,
+   "fields": "East Texas; Eagle Ford",
+   "total": 35.0,
+   "past": 24.5,
+   "future": 10.5,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 14.0
+    },
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 14.0
+    },
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 7.0
+    }
+   ],
+   "x": 0.27807,
+   "y": 0.2786,
+   "r": 0.0086,
+   "note": "Eagle Ford oil window (Cenomanian-Turonian); Gulf Coast Tertiary; Smackover secondary"
+  },
+  {
+   "code": 6036,
+   "name": "Santos Basin",
+   "country": "Brazil",
+   "city": "Rio de Janeiro",
+   "city_km": 322,
+   "discovered": 2006,
+   "fields": "Tupi (Lula); Buzios; Mero",
+   "total": 30.0,
+   "past": 3.9,
+   "future": 26.1,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 30.0
+    }
+   ],
+   "x": 0.39947,
+   "y": 0.52281,
+   "r": 0.01031,
+   "note": "Pre-salt Lula and Buzios, Barremian-Aptian lacustrine source; discovered after 2006 so absent from the assessment"
+  },
+  {
+   "code": 5097,
+   "name": "Gulf Cenozoic OCS",
+   "country": "United States of America",
+   "city": "Houston",
+   "city_km": 367,
+   "discovered": 1947,
+   "fields": "Thunder Horse; Mars-Ursa",
+   "total": 25.0,
+   "past": 17.5,
+   "future": 7.5,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 21.2
+    }
+   ],
+   "x": 0.29005,
+   "y": 0.28313,
+   "r": 0.00949,
+   "note": "Offshore Gulf of Mexico Tertiary"
+  },
+  {
+   "code": 3127,
+   "name": "Bohaiwan Basin",
+   "country": "China",
+   "city": "Tianjin",
+   "city_km": 49,
+   "discovered": 1961,
+   "fields": "Shengli; Jidong Nanpu",
+   "total": 24.6,
+   "past": 10.4,
+   "future": 14.2,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 14.8
+    }
+   ],
+   "x": 0.75611,
+   "y": 0.23329,
+   "r": 0.0087,
+   "note": "Shahejie (Eocene-Oligocene) lacustrine; Daqing area excluded, see Songliao"
+  },
+  {
+   "code": 5010,
+   "name": "San Joaquin Basin",
+   "country": "United States of America",
+   "city": "Fresno",
+   "city_km": 46,
+   "discovered": 1894,
+   "fields": "Midway-Sunset; Kern River; South Belridge",
+   "total": 22.0,
+   "past": 15.0,
+   "future": 7.0,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 18.7
+    }
+   ],
+   "x": 0.23575,
+   "y": 0.2439,
+   "r": 0.00921,
+   "note": "Monterey (Miocene); Kreyenhagen (Eocene) in other"
+  },
+  {
+   "code": 5001,
+   "name": "Northern Alaska",
+   "country": "United States of America",
+   "city": "Prudhoe Bay",
+   "city_km": 171,
+   "discovered": 1967,
+   "fields": "Prudhoe Bay; Kuparuk River",
+   "total": 20.0,
+   "past": 14.0,
+   "future": 6.0,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 8.0
+    }
+   ],
+   "x": 0.24108,
+   "y": 0.10418,
+   "r": 0.00754,
+   "note": "Shublik (Triassic) in other; HRZ and pebble shale (Cretaceous); Prudhoe Bay"
+  },
+  {
+   "code": 1112,
+   "name": "South Caspian Basin",
+   "country": "Azerbaijan",
+   "city": "Baku",
+   "city_km": 253,
+   "discovered": 1871,
+   "fields": "Azeri-Chirag-Guneshli; Balakhany",
+   "total": 17.4,
+   "past": 11.7,
+   "future": 5.7,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 17.4
+    }
+   ],
+   "x": 0.61288,
+   "y": 0.23361,
+   "r": 0.00905,
+   "note": "Maykop (Oligocene-Lower Miocene); Baku fields"
+  },
+  {
+   "code": 2023,
+   "name": "Widyan Basin-Int. Platform",
+   "country": "Iraq",
+   "city": "Kuwait City",
+   "city_km": 268,
+   "discovered": 1957,
+   "fields": "Khurais area",
+   "total": 17.4,
+   "past": 0.2,
+   "future": 17.2,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 10.4
+    },
+    {
+     "interval": "Silurian",
+     "color": "#8c2d04",
+     "bbl": 7.0
+    }
+   ],
+   "x": 0.60222,
+   "y": 0.27589,
+   "r": 0.00802,
+   "note": "Upper Jurassic with a Silurian contribution"
+  },
+  {
+   "code": 3144,
+   "name": "Songliao Basin",
+   "country": "China",
+   "city": "Daqing",
+   "city_km": 68,
+   "discovered": 1959,
+   "fields": "Daqing",
+   "total": 15.6,
+   "past": 12.4,
+   "future": 3.2,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 15.6
+    }
+   ],
+   "x": 0.76201,
+   "y": 0.20115,
+   "r": 0.00882,
+   "note": "Qingshankou (Cenomanian-Turonian) lacustrine; Daqing field"
+  },
+  {
+   "code": 2054,
+   "name": "Trias/Ghadames Basin",
+   "country": "Algeria",
+   "city": "Tripoli",
+   "city_km": 483,
+   "discovered": 1956,
+   "fields": "Hassi Messaoud",
+   "total": 15.2,
+   "past": 7.4,
+   "future": 7.8,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 9.1
+    },
+    {
+     "interval": "Silurian",
+     "color": "#8c2d04",
+     "bbl": 6.1
+    }
+   ],
+   "x": 0.51854,
+   "y": 0.26517,
+   "r": 0.00777,
+   "note": "Frasnian (Devonian) dominant for oil; Silurian Tanezzuft secondary"
+  },
+  {
+   "code": 6021,
+   "name": "Guyana-Suriname Basin",
+   "country": "Suriname",
+   "city": "Paramaribo",
+   "city_km": 231,
+   "discovered": 2015,
+   "fields": "Liza; Payara",
+   "total": 15.0,
+   "past": 0.6,
+   "future": 14.4,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 15.0
+    }
+   ],
+   "x": 0.37288,
+   "y": 0.37268,
+   "r": 0.00874,
+   "note": "Stabroek block, Canje Formation (Cenomanian-Turonian); discovered 2015, absent from the assessment"
+  },
+  {
+   "code": 7203,
+   "name": "West-central Coastal",
+   "country": "Congo (Brazzaville)",
+   "city": "Pointe-Noire",
+   "city_km": 255,
+   "discovered": 1966,
+   "fields": "Kizomba Complex; Girassol",
+   "total": 13.7,
+   "past": 5.8,
+   "future": 7.9,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 11.0
+    }
+   ],
+   "x": 0.52564,
+   "y": 0.43814,
+   "r": 0.00811,
+   "note": "Bucomazi (Barremian lacustrine) and Cenomanian-Turonian marine; Congo and Gabon"
+  },
+  {
+   "code": 3808,
+   "name": "Central Sumatra Basin",
+   "country": "Indonesia",
+   "city": "Singapore",
+   "city_km": 257,
+   "discovered": 1944,
+   "fields": "Minas; Duri",
+   "total": 13.2,
+   "past": 8.3,
+   "future": 4.9,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 7.9
+    }
+   ],
+   "x": 0.73878,
+   "y": 0.40444,
+   "r": 0.00752,
+   "note": "Pematang (Eocene-Oligocene) lacustrine; Minas field"
+  },
+  {
+   "code": 1008,
+   "name": "Timan-Pechora Basin",
+   "country": "Russia",
+   "city": "Vorkuta",
+   "city_km": 347,
+   "discovered": 1930,
+   "fields": "Usinskoye; Nizhne-Chutinskoe",
+   "total": 13.1,
+   "past": 3.3,
+   "future": 9.8,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 11.1
+    }
+   ],
+   "x": 0.5993,
+   "y": 0.11528,
+   "r": 0.00814,
+   "note": "Domanik (Upper Devonian)"
+  },
+  {
+   "code": 5031,
+   "name": "Williston Basin",
+   "country": "United States of America",
+   "city": "Bismarck",
+   "city_km": 70,
+   "discovered": 1951,
+   "fields": "Bakken Formation; Parshall",
+   "total": 12.0,
+   "past": 4.8,
+   "future": 7.2,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 10.8
+    },
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 1.2
+    }
+   ],
+   "x": 0.28825,
+   "y": 0.19956,
+   "r": 0.00808,
+   "note": "Bakken and Three Forks (Devonian-Mississippian), US portion"
+  },
+  {
+   "code": 5049,
+   "name": "Louisiana-Mississippi Salt Basins",
+   "country": "United States of America",
+   "city": "Jackson",
+   "city_km": 66,
+   "discovered": 1943,
+   "fields": "Tuscaloosa Marine Shale",
+   "total": 12.0,
+   "past": 8.4,
+   "future": 3.6,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 10.8
+    }
+   ],
+   "x": 0.29941,
+   "y": 0.26334,
+   "r": 0.00808,
+   "note": "Smackover and Tuscaloosa"
+  },
+  {
+   "code": 6035,
+   "name": "Campos Basin",
+   "country": "Brazil",
+   "city": "Vila Velha",
+   "city_km": 222,
+   "discovered": 1974,
+   "fields": "Marlim; Roncador; Albacora",
+   "total": 10.1,
+   "past": 1.8,
+   "future": 8.3,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 10.1
+    }
+   ],
+   "x": 0.408,
+   "y": 0.50759,
+   "r": 0.00796,
+   "note": "Lagoa Feia (Barremian-Aptian lacustrine)"
+  },
+  {
+   "code": 5014,
+   "name": "Los Angeles Basin",
+   "country": "United States of America",
+   "city": "Los Angeles",
+   "city_km": 38,
+   "discovered": 1892,
+   "fields": "Wilmington; Long Beach",
+   "total": 10.0,
+   "past": 9.3,
+   "future": 0.7,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 10.0
+    }
+   ],
+   "x": 0.23725,
+   "y": 0.25572,
+   "r": 0.00794,
+   "note": "Monterey (Miocene); among the most prolific basins per unit area on Earth"
+  },
+  {
+   "code": 2071,
+   "name": "Red Sea Basin",
+   "country": "Saudi Arabia",
+   "city": "Jeddah",
+   "city_km": 105,
+   "discovered": 1965,
+   "fields": "Morgan; Belayim",
+   "total": 9.9,
+   "past": 6.3,
+   "future": 3.6,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 9.9
+    }
+   ],
+   "x": 0.58815,
+   "y": 0.31227,
+   "r": 0.00792,
+   "note": "Miocene source and evaporite seal"
+  },
+  {
+   "code": 1109,
+   "name": "Middle Caspian Basin",
+   "country": "Russia",
+   "city": "Grozny",
+   "city_km": 205,
+   "discovered": 1961,
+   "fields": "Uzen; Zhetybay; Kalamkas",
+   "total": 9.6,
+   "past": 4.4,
+   "future": 5.2,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 7.7
+    },
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 1.9
+    }
+   ],
+   "x": 0.60251,
+   "y": 0.21244,
+   "r": 0.00747,
+   "note": "Maykop; Jurassic secondary"
+  },
+  {
+   "code": 8043,
+   "name": "Bombay",
+   "country": "India",
+   "city": "Rajkot",
+   "city_km": 202,
+   "discovered": 1965,
+   "fields": "Mumbai High",
+   "total": 8.4,
+   "past": 3.4,
+   "future": 5.0,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 6.7
+    }
+   ],
+   "x": 0.66267,
+   "y": 0.31517,
+   "r": 0.00724,
+   "note": "Mumbai High, Eocene-Miocene"
+  },
+  {
+   "code": 5048,
+   "name": "East Texas Basin",
+   "country": "United States of America",
+   "city": "Dallas",
+   "city_km": 155,
+   "discovered": 1930,
+   "fields": "East Texas Oil Field",
+   "total": 8.0,
+   "past": 6.8,
+   "future": 1.2,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 4.8
+    },
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 3.2
+    }
+   ],
+   "x": 0.2869,
+   "y": 0.26212,
+   "r": 0.0067,
+   "note": "Smackover and Bossier; Eagle Ford and Woodbine"
+  },
+  {
+   "code": 5058,
+   "name": "Andarko Basin",
+   "country": "United States of America",
+   "city": "Oklahoma City",
+   "city_km": 249,
+   "discovered": 1917,
+   "fields": "Cement; Sho-Vel-Tum",
+   "total": 8.0,
+   "past": 6.4,
+   "future": 1.6,
+   "intervals": [
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 4.0
+    },
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 3.6
+    }
+   ],
+   "x": 0.28076,
+   "y": 0.24195,
+   "r": 0.00655,
+   "note": "Woodford (Devonian-Mississippian) and Pennsylvanian sources"
+  },
+  {
+   "code": 3701,
+   "name": "Baram Delta/Brunei-Sabah Basin",
+   "country": "Brunei",
+   "city": "Bandar Seri Begawan",
+   "city_km": 139,
+   "discovered": 1929,
+   "fields": "Seria; Champion",
+   "total": 6.9,
+   "past": 4.0,
+   "future": 2.9,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 6.9
+    }
+   ],
+   "x": 0.76846,
+   "y": 0.38014,
+   "r": 0.00728,
+   "note": "Miocene deltaic"
+  },
+  {
+   "code": 5301,
+   "name": "Tampico-Misantla Basin",
+   "country": "Mexico",
+   "city": "Tampico",
+   "city_km": 105,
+   "discovered": 1904,
+   "fields": "Chicontepec; Poza Rica; Golden Lane",
+   "total": 6.9,
+   "past": 5.8,
+   "future": 1.1,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 6.9
+    }
+   ],
+   "x": 0.27598,
+   "y": 0.3107,
+   "r": 0.00728,
+   "note": "Tithonian source, Golden Lane"
+  },
+  {
+   "code": 3115,
+   "name": "Junggar Basin",
+   "country": "China",
+   "city": "\u00dcr\u00fcmqi",
+   "city_km": 188,
+   "discovered": 1955,
+   "fields": "Karamay",
+   "total": 6.8,
+   "past": 1.0,
+   "future": 5.8,
+   "intervals": [
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 5.4
+    }
+   ],
+   "x": 0.68286,
+   "y": 0.20344,
+   "r": 0.00689,
+   "note": "Fengcheng (Permian) lacustrine"
+  },
+  {
+   "code": 6041,
+   "name": "Putumayo-Oriente-Maranon Basin",
+   "country": "Peru",
+   "city": "Iquitos",
+   "city_km": 214,
+   "discovered": 1967,
+   "fields": "Shushufindi; Sacha",
+   "total": 6.6,
+   "past": 2.9,
+   "future": 3.7,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 6.6
+    }
+   ],
+   "x": 0.32505,
+   "y": 0.41754,
+   "r": 0.00721,
+   "note": "Napo and Chonta (Cenomanian-Turonian)"
+  },
+  {
+   "code": 5045,
+   "name": "Bend Arch-Fort Worth Basin",
+   "country": "United States of America",
+   "city": "Ft.  Worth",
+   "city_km": 116,
+   "discovered": 1917,
+   "fields": "Barnett Shale; Ranger",
+   "total": 6.0,
+   "past": 4.2,
+   "future": 1.8,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 3.6
+    },
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 2.4
+    }
+   ],
+   "x": 0.27971,
+   "y": 0.26267,
+   "r": 0.00655,
+   "note": "Barnett oil window and Pennsylvanian sources"
+  },
+  {
+   "code": 4061,
+   "name": "Carpathian-Balkanian Basin",
+   "country": "Romania",
+   "city": "Bucharest",
+   "city_km": 68,
+   "discovered": 1857,
+   "fields": "Ploiesti area",
+   "total": 5.9,
+   "past": 4.1,
+   "future": 1.8,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 5.9
+    }
+   ],
+   "x": 0.55396,
+   "y": 0.20574,
+   "r": 0.00702,
+   "note": "Menilite (Oligocene); Ploiesti fields"
+  },
+  {
+   "code": 6096,
+   "name": "Llanos Basin",
+   "country": "Colombia",
+   "city": "Bogota",
+   "city_km": 292,
+   "discovered": 1983,
+   "fields": "Cano Limon; Cusiana; Rubiales",
+   "total": 5.4,
+   "past": 1.2,
+   "future": 4.2,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 4.3
+    },
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 1.1
+    }
+   ],
+   "x": 0.33232,
+   "y": 0.38684,
+   "r": 0.00655,
+   "note": "Gacheta (Cenomanian-Turonian)"
+  },
+  {
+   "code": 5013,
+   "name": "Ventura Basin",
+   "country": "United States of America",
+   "city": "Santa Barbara",
+   "city_km": 52,
+   "discovered": 1919,
+   "fields": "Ventura Avenue; Rincon",
+   "total": 5.0,
+   "past": 4.4,
+   "future": 0.6,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 5.0
+    }
+   ],
+   "x": 0.2355,
+   "y": 0.25261,
+   "r": 0.00676,
+   "note": "Monterey and Rincon (Miocene)"
+  },
+  {
+   "code": 5060,
+   "name": "Cherokee Platform",
+   "country": "United States of America",
+   "city": "Tulsa",
+   "city_km": 49,
+   "discovered": 1903,
+   "fields": "Cushing; Glenn Pool",
+   "total": 5.0,
+   "past": 4.5,
+   "future": 0.5,
+   "intervals": [
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 4.0
+    },
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 1.0
+    }
+   ],
+   "x": 0.28922,
+   "y": 0.24315,
+   "r": 0.00655,
+   "note": "Pennsylvanian cyclothem shales; Woodford secondary"
+  },
+  {
+   "code": 2020,
+   "name": "Interior Homocline-Central Arch",
+   "country": "Saudi Arabia",
+   "city": "Riyadh",
+   "city_km": 79,
+   "discovered": 1957,
+   "fields": "Khurais",
+   "total": 4.7,
+   "past": 0.1,
+   "future": 4.6,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 4.2
+    },
+    {
+     "interval": "Silurian",
+     "color": "#8c2d04",
+     "bbl": 0.5
+    }
+   ],
+   "x": 0.60763,
+   "y": 0.29965,
+   "r": 0.00655,
+   "note": "Upper Jurassic; central Saudi Arabia"
+  },
+  {
+   "code": 2016,
+   "name": "Fahud Salt Basin",
+   "country": "Oman",
+   "city": "Muscat",
+   "city_km": 219,
+   "discovered": 1962,
+   "fields": "Yibal; Fahud",
+   "total": 4.5,
+   "past": 2.6,
+   "future": 1.9,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 2.2
+    }
+   ],
+   "x": 0.62963,
+   "y": 0.30516,
+   "r": 0.00655,
+   "note": "Natih (Cenomanian); Huqf (Neoproterozoic) in other"
+  },
+  {
+   "code": 5064,
+   "name": "Illinois Basin",
+   "country": "United States of America",
+   "city": "St. Louis",
+   "city_km": 185,
+   "discovered": 1886,
+   "fields": "Salem; Louden",
+   "total": 4.5,
+   "past": 4.0,
+   "future": 0.5,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 3.8
+    },
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 0.7
+    }
+   ],
+   "x": 0.30744,
+   "y": 0.23555,
+   "r": 0.00655,
+   "note": "New Albany Shale (Upper Devonian)"
+  },
+  {
+   "code": 5067,
+   "name": "Appalachian Basin",
+   "country": "United States of America",
+   "city": "Charleston",
+   "city_km": 53,
+   "discovered": 1859,
+   "fields": "Drake Well; Bradford",
+   "total": 4.0,
+   "past": 3.7,
+   "future": 0.3,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 3.2
+    }
+   ],
+   "x": 0.3232,
+   "y": 0.23452,
+   "r": 0.00655,
+   "note": "Devonian black shales; Ordovician in other"
+  },
+  {
+   "code": 3930,
+   "name": "Gippsland Basin",
+   "country": "Australia",
+   "city": "Melbourne",
+   "city_km": 306,
+   "discovered": 1965,
+   "fields": "Kingfish; Halibut",
+   "total": 3.9,
+   "past": 3.1,
+   "future": 0.8,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 1.2
+    }
+   ],
+   "x": 0.82177,
+   "y": 0.58337,
+   "r": 0.00655,
+   "note": "Latrobe Group, Late Cretaceous to Eocene"
+  },
+  {
+   "code": 2056,
+   "name": "Illizi Basin",
+   "country": "Algeria",
+   "city": "Tripoli",
+   "city_km": 769,
+   "discovered": 1956,
+   "fields": "Zarzaitine; Edjeleh",
+   "total": 3.7,
+   "past": 2.3,
+   "future": 1.4,
+   "intervals": [
+    {
+     "interval": "Silurian",
+     "color": "#8c2d04",
+     "bbl": 1.9
+    },
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 1.9
+    }
+   ],
+   "x": 0.5179,
+   "y": 0.28284,
+   "r": 0.00655,
+   "note": "Silurian Tanezzuft and Devonian sources"
+  },
+  {
+   "code": 3703,
+   "name": "Malay Basin",
+   "country": "Malaysia",
+   "city": "George Town",
+   "city_km": 414,
+   "discovered": 1969,
+   "fields": "Tapis; Seligi",
+   "total": 3.6,
+   "past": 1.5,
+   "future": 2.1,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 3.6
+    }
+   ],
+   "x": 0.74075,
+   "y": 0.37041,
+   "r": 0.00655,
+   "note": "Oligocene-Miocene lacustrine and coaly"
+  },
+  {
+   "code": 5244,
+   "name": "Williston Basin",
+   "country": "Canada",
+   "city": "Regina",
+   "city_km": 199,
+   "discovered": 1951,
+   "fields": "Weyburn; Midale",
+   "total": 3.5,
+   "past": 2.7,
+   "future": 0.8,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 3.1
+    },
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 0.4
+    }
+   ],
+   "x": 0.29201,
+   "y": 0.17437,
+   "r": 0.00655,
+   "note": "Bakken and Lodgepole, Canadian portion"
+  },
+  {
+   "code": 6058,
+   "name": "San Jorge Basin",
+   "country": "Argentina",
+   "city": "Comodoro Rivadavia",
+   "city_km": 42,
+   "discovered": 1907,
+   "fields": "Comodoro Rivadavia; Canadon Seco",
+   "total": 3.3,
+   "past": 2.4,
+   "future": 0.9,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 3.3
+    }
+   ],
+   "x": 0.35776,
+   "y": 0.61157,
+   "r": 0.00655,
+   "note": "Pozo D-129 (Aptian lacustrine)"
+  },
+  {
+   "code": 3824,
+   "name": "Northwest Java Basin",
+   "country": "Indonesia",
+   "city": "Jakarta",
+   "city_km": 152,
+   "discovered": 1971,
+   "fields": "Arjuna; Cinta",
+   "total": 3.2,
+   "past": 1.6,
+   "future": 1.6,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 3.2
+    }
+   ],
+   "x": 0.75315,
+   "y": 0.43127,
+   "r": 0.00655,
+   "note": "Oligocene-Miocene"
+  },
+  {
+   "code": 5012,
+   "name": "Santa Maria Basin",
+   "country": "United States of America",
+   "city": "Fresno",
+   "city_km": 176,
+   "discovered": 1901,
+   "fields": "Orcutt; Point Pedernales",
+   "total": 3.0,
+   "past": 2.5,
+   "future": 0.5,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 3.0
+    }
+   ],
+   "x": 0.23277,
+   "y": 0.24811,
+   "r": 0.00655,
+   "note": "Monterey (Miocene)"
+  },
+  {
+   "code": 5033,
+   "name": "Powder River Basin",
+   "country": "United States of America",
+   "city": "Casper",
+   "city_km": 166,
+   "discovered": 1908,
+   "fields": "Salt Creek; Teapot Dome",
+   "total": 3.0,
+   "past": 2.4,
+   "future": 0.6,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 2.1
+    }
+   ],
+   "x": 0.27665,
+   "y": 0.20881,
+   "r": 0.00655,
+   "note": "Mowry and Niobrara"
+  },
+  {
+   "code": 5039,
+   "name": "Denver Basin",
+   "country": "United States of America",
+   "city": "Cheyenne",
+   "city_km": 76,
+   "discovered": 1901,
+   "fields": "Wattenberg; Niobrara",
+   "total": 3.0,
+   "past": 1.7,
+   "future": 1.3,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 2.5
+    }
+   ],
+   "x": 0.27563,
+   "y": 0.22417,
+   "r": 0.00655,
+   "note": "Niobrara and Mowry"
+  },
+  {
+   "code": 5020,
+   "name": "Uinta-Piceance Basins",
+   "country": "United States of America",
+   "city": "Denver",
+   "city_km": 316,
+   "discovered": 1948,
+   "fields": "Altamont-Bluebell",
+   "total": 3.0,
+   "past": 1.8,
+   "future": 1.2,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 0.9
+    }
+   ],
+   "x": 0.26412,
+   "y": 0.22991,
+   "r": 0.00655,
+   "note": "Green River Formation (Eocene lacustrine) in other; Mancos secondary"
+  },
+  {
+   "code": 5034,
+   "name": "Big Horn Basin",
+   "country": "United States of America",
+   "city": "Billings",
+   "city_km": 161,
+   "discovered": 1908,
+   "fields": "Elk Basin; Oregon Basin",
+   "total": 3.0,
+   "past": 2.5,
+   "future": 0.5,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 1.5
+    },
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 0.9
+    },
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 0.6
+    }
+   ],
+   "x": 0.2704,
+   "y": 0.20838,
+   "r": 0.00655,
+   "note": "Mowry and Cody; Phosphoria (Permian) and Devonian secondary"
+  },
+  {
+   "code": 3817,
+   "name": "Kutei Basin",
+   "country": "Indonesia",
+   "city": "Balikpapan",
+   "city_km": 91,
+   "discovered": 1897,
+   "fields": "Attaka; Badak; Handil",
+   "total": 2.9,
+   "past": 2.2,
+   "future": 0.7,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 2.9
+    }
+   ],
+   "x": 0.77387,
+   "y": 0.40946,
+   "r": 0.00655,
+   "note": "Miocene deltaic coals, Mahakam"
+  },
+  {
+   "code": 4017,
+   "name": "Vestford-Helgeland",
+   "country": "Norway",
+   "city": "Trondheim",
+   "city_km": 258,
+   "discovered": 1981,
+   "fields": "Draugen; Heidrun; Norne",
+   "total": 2.7,
+   "past": 0.1,
+   "future": 2.6,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 2.4
+    }
+   ],
+   "x": 0.51381,
+   "y": 0.11927,
+   "r": 0.00655,
+   "note": "Spekk and Draupne"
+  },
+  {
+   "code": 8034,
+   "name": "Assam",
+   "country": "India",
+   "city": "Guwahati",
+   "city_km": 224,
+   "discovered": 1889,
+   "fields": "Digboi; Naharkatiya",
+   "total": 2.5,
+   "past": 0.9,
+   "future": 1.6,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 1.5
+    }
+   ],
+   "x": 0.71414,
+   "y": 0.28846,
+   "r": 0.00655,
+   "note": "Eocene-Oligocene deltaic and coaly"
+  },
+  {
+   "code": 3828,
+   "name": "South Sumatra Basin",
+   "country": "Indonesia",
+   "city": "Palembang",
+   "city_km": 63,
+   "discovered": 1922,
+   "fields": "Talang Akar; Limau",
+   "total": 2.4,
+   "past": 1.8,
+   "future": 0.6,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 2.4
+    }
+   ],
+   "x": 0.7448,
+   "y": 0.41955,
+   "r": 0.00655,
+   "note": "Talang Akar, Oligocene-Miocene"
+  },
+  {
+   "code": 6090,
+   "name": "Middle Magdelena",
+   "country": "Colombia",
+   "city": "San Crist\u00f3bal",
+   "city_km": 161,
+   "discovered": 1918,
+   "fields": "La Cira-Infantas",
+   "total": 2.4,
+   "past": 1.9,
+   "future": 0.5,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 2.4
+    }
+   ],
+   "x": 0.32747,
+   "y": 0.37456,
+   "r": 0.00655,
+   "note": "La Luna"
+  },
+  {
+   "code": 6055,
+   "name": "Neuquen Basin",
+   "country": "Argentina",
+   "city": "Neuqu\u00e9n",
+   "city_km": 190,
+   "discovered": 1918,
+   "fields": "Vaca Muerta; Loma Campana",
+   "total": 2.4,
+   "past": 1.5,
+   "future": 0.9,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 1.9
+    }
+   ],
+   "x": 0.34979,
+   "y": 0.57476,
+   "r": 0.00655,
+   "note": "Vaca Muerta (Tithonian); Los Molles in other"
+  },
+  {
+   "code": 1150,
+   "name": "North Ustyurt Basin",
+   "country": "Kazakhstan",
+   "city": "Atyrau",
+   "city_km": 345,
+   "discovered": 1960,
+   "fields": "Buzachi",
+   "total": 2.4,
+   "past": 0.5,
+   "future": 1.9,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 1.4
+    }
+   ],
+   "x": 0.61547,
+   "y": 0.20675,
+   "r": 0.00655,
+   "note": "Jurassic sources"
+  },
+  {
+   "code": 5304,
+   "name": "Saline-Comalcalco Basin",
+   "country": "Mexico",
+   "city": "Tuxtla Guti\u00e9rrez",
+   "city_km": 203,
+   "discovered": 1972,
+   "fields": "Samaria; Jujo-Tecominoacan",
+   "total": 2.4,
+   "past": 1.7,
+   "future": 0.7,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 2.4
+    }
+   ],
+   "x": 0.28325,
+   "y": 0.32421,
+   "r": 0.00655,
+   "note": "Tithonian source"
+  },
+  {
+   "code": 4035,
+   "name": "Northwest German Basin",
+   "country": "Germany",
+   "city": "Hamburg",
+   "city_km": 139,
+   "discovered": 1930,
+   "fields": "Mittelplate",
+   "total": 2.3,
+   "past": 1.9,
+   "future": 0.4,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 0.7
+    }
+   ],
+   "x": 0.51566,
+   "y": 0.16795,
+   "r": 0.00655,
+   "note": "Posidonia Shale (Lower Jurassic, Toarcian) in other; Wealden secondary. The gas here comes from Carboniferous coal instead"
+  },
+  {
+   "code": 2048,
+   "name": "Pelagian Basin",
+   "country": "Malta",
+   "city": "Valletta",
+   "city_km": 163,
+   "discovered": 1971,
+   "fields": "El Borma; Ashtart",
+   "total": 2.2,
+   "past": 0.5,
+   "future": 1.7,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 1.5
+    },
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 0.7
+    }
+   ],
+   "x": 0.52931,
+   "y": 0.25063,
+   "r": 0.00655,
+   "note": "Bahloul (Cenomanian-Turonian)"
+  },
+  {
+   "code": 4048,
+   "name": "Pannonian Basin",
+   "country": "Hungary",
+   "city": "Budapest",
+   "city_km": 75,
+   "discovered": 1937,
+   "fields": "Algyo",
+   "total": 2.2,
+   "past": 1.6,
+   "future": 0.6,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 2.2
+    }
+   ],
+   "x": 0.5392,
+   "y": 0.19734,
+   "r": 0.00655,
+   "note": "Miocene lacustrine"
+  },
+  {
+   "code": 1322,
+   "name": "North Sakhalin Basin",
+   "country": "Russia",
+   "city": "Okha",
+   "city_km": 236,
+   "discovered": 1928,
+   "fields": "Chayvo; Odoptu",
+   "total": 2.2,
+   "past": 0.8,
+   "future": 1.4,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 2.2
+    }
+   ],
+   "x": 0.78922,
+   "y": 0.1772,
+   "r": 0.00655,
+   "note": "Oligocene-Miocene"
+  },
+  {
+   "code": 1210,
+   "name": "Nepa-Botuoba Arch",
+   "country": "Russia",
+   "city": "Mirny",
+   "city_km": 268,
+   "discovered": 1980,
+   "fields": "Talakan; Verkhnechonskoye",
+   "total": 2.0,
+   "past": 0.0,
+   "future": 2.0,
+   "intervals": [],
+   "x": 0.70321,
+   "y": 0.13597,
+   "r": 0.00655,
+   "note": "Riphean-Vendian source, Siberian platform"
+  },
+  {
+   "code": 5011,
+   "name": "Central Coastal",
+   "country": "United States of America",
+   "city": "San Jose",
+   "city_km": 53,
+   "discovered": 1896,
+   "fields": "Coalinga; Cat Canyon",
+   "total": 2.0,
+   "past": 1.7,
+   "future": 0.3,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 2.0
+    }
+   ],
+   "x": 0.23231,
+   "y": 0.24175,
+   "r": 0.00655,
+   "note": "Monterey (Miocene)"
+  },
+  {
+   "code": 5093,
+   "name": "Santa Barbara-Ventura Basin OCS",
+   "country": "United States of America",
+   "city": "Santa Barbara",
+   "city_km": 36,
+   "discovered": 1968,
+   "fields": "Hondo; Point Arguello",
+   "total": 2.0,
+   "past": 1.5,
+   "future": 0.5,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 2.0
+    }
+   ],
+   "x": 0.23328,
+   "y": 0.25339,
+   "r": 0.00655,
+   "note": "Monterey (Miocene), offshore California"
+  },
+  {
+   "code": 5037,
+   "name": "Southwestern Wyoming",
+   "country": "United States of America",
+   "city": "Salt Lake City",
+   "city_km": 261,
+   "discovered": 1924,
+   "fields": "Lost Soldier",
+   "total": 2.0,
+   "past": 1.4,
+   "future": 0.6,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 1.2
+    }
+   ],
+   "x": 0.26548,
+   "y": 0.21668,
+   "r": 0.00655,
+   "note": "Mowry and Hilliard"
+  },
+  {
+   "code": 5059,
+   "name": "Sedgwick Basin",
+   "country": "United States of America",
+   "city": "Tulsa",
+   "city_km": 256,
+   "discovered": 1914,
+   "fields": "El Dorado",
+   "total": 2.0,
+   "past": 1.8,
+   "future": 0.2,
+   "intervals": [
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 1.8
+    },
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 0.2
+    }
+   ],
+   "x": 0.28602,
+   "y": 0.23722,
+   "r": 0.00655,
+   "note": "Pennsylvanian sources"
+  },
+  {
+   "code": 5022,
+   "name": "San Juan Basin",
+   "country": "United States of America",
+   "city": "Albuquerque",
+   "city_km": 178,
+   "discovered": 1922,
+   "fields": "Basin Dakota",
+   "total": 2.0,
+   "past": 1.6,
+   "future": 0.4,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 1.4
+    }
+   ],
+   "x": 0.26346,
+   "y": 0.24311,
+   "r": 0.00655,
+   "note": "Mancos (Turonian); Fruitland in other"
+  },
+  {
+   "code": 6081,
+   "name": "Talara Basin",
+   "country": "Peru",
+   "city": "Piura",
+   "city_km": 75,
+   "discovered": 1863,
+   "fields": "La Brea-Parinas",
+   "total": 1.7,
+   "past": 1.3,
+   "future": 0.4,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 0.8
+    }
+   ],
+   "x": 0.30926,
+   "y": 0.43067,
+   "r": 0.00655,
+   "note": "Cretaceous and Eocene sources"
+  },
+  {
+   "code": 1009,
+   "name": "Dnieper-Donets Basin",
+   "country": "Ukraine",
+   "city": "Kharkiv",
+   "city_km": 138,
+   "discovered": 1950,
+   "fields": "Shebelinka",
+   "total": 1.6,
+   "past": 0.1,
+   "future": 1.5,
+   "intervals": [
+    {
+     "interval": "Pennsylvanian - Lower Permian",
+     "color": "#ec7014",
+     "bbl": 1.1
+    },
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 0.5
+    }
+   ],
+   "x": 0.56993,
+   "y": 0.18314,
+   "r": 0.00655,
+   "note": "Visean-Serpukhovian and Pennsylvanian"
+  },
+  {
+   "code": 5215,
+   "name": "Labrador-Newfoundland Shelf",
+   "country": "Canada",
+   "city": "St. John's",
+   "city_km": 740,
+   "discovered": 1979,
+   "fields": "Hibernia; Terra Nova; Hebron",
+   "total": 1.6,
+   "past": 0.9,
+   "future": 0.7,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 1.6
+    }
+   ],
+   "x": 0.39332,
+   "y": 0.16552,
+   "r": 0.00655,
+   "note": "Egret Member (Kimmeridgian); Hibernia"
+  },
+  {
+   "code": 5063,
+   "name": "Michigan Basin",
+   "country": "United States of America",
+   "city": "Milwaukee",
+   "city_km": 185,
+   "discovered": 1925,
+   "fields": "Niagaran reef trend",
+   "total": 1.5,
+   "past": 1.3,
+   "future": 0.2,
+   "intervals": [
+    {
+     "interval": "Upper Devonian - Mississippian",
+     "color": "#cc4c02",
+     "bbl": 0.9
+    },
+    {
+     "interval": "Silurian",
+     "color": "#8c2d04",
+     "bbl": 0.6
+    }
+   ],
+   "x": 0.31746,
+   "y": 0.20899,
+   "r": 0.00655,
+   "note": "Niagaran (Silurian) pinnacle reefs and Antrim-related Devonian sources"
+  },
+  {
+   "code": 5003,
+   "name": "Southern Alaska",
+   "country": "United States of America",
+   "city": "Anchorage",
+   "city_km": 440,
+   "discovered": 1957,
+   "fields": "Swanson River; McArthur River",
+   "total": 1.5,
+   "past": 1.3,
+   "future": 0.2,
+   "intervals": [
+    {
+     "interval": "Oligocene - Miocene",
+     "color": "#fee391",
+     "bbl": 1.5
+    }
+   ],
+   "x": 0.20367,
+   "y": 0.14564,
+   "r": 0.00655,
+   "note": "Cook Inlet Tyonek (Miocene)"
+  },
+  {
+   "code": 2014,
+   "name": "Ghaba Salt Basin",
+   "country": "Oman",
+   "city": "Muscat",
+   "city_km": 285,
+   "discovered": 1962,
+   "fields": "Lekhwair; Saih Rawl",
+   "total": 1.3,
+   "past": 0.5,
+   "future": 0.8,
+   "intervals": [
+    {
+     "interval": "Silurian",
+     "color": "#8c2d04",
+     "bbl": 0.3
+    }
+   ],
+   "x": 0.63129,
+   "y": 0.3114,
+   "r": 0.00655,
+   "note": "Huqf (Neoproterozoic) in other; Sahmah (Silurian) secondary"
+  },
+  {
+   "code": 6059,
+   "name": "Magallanes Basin",
+   "country": "Argentina",
+   "city": "R\u00edo Gallegos",
+   "city_km": 143,
+   "discovered": 1945,
+   "fields": "Manantiales; Springhill",
+   "total": 1.2,
+   "past": 0.6,
+   "future": 0.6,
+   "intervals": [
+    {
+     "interval": "Middle Cretaceous",
+     "color": "#fec44f",
+     "bbl": 0.8
+    },
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 0.4
+    }
+   ],
+   "x": 0.35658,
+   "y": 0.63436,
+   "r": 0.00655,
+   "note": "Springhill (Lower Cretaceous); Jurassic secondary"
+  },
+  {
+   "code": 2004,
+   "name": "Ma'Rib-Al Jawf Basin",
+   "country": "Yemen",
+   "city": "Sanaa",
+   "city_km": 148,
+   "discovered": 1984,
+   "fields": "Alif; Asad al Kamil",
+   "total": 1.2,
+   "past": 0.5,
+   "future": 0.7,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 1.2
+    }
+   ],
+   "x": 0.60569,
+   "y": 0.33621,
+   "r": 0.00655,
+   "note": "Madbi (Upper Jurassic)"
+  },
+  {
+   "code": 2022,
+   "name": "Qatar Arch",
+   "country": "Qatar",
+   "city": "Doha",
+   "city_km": 41,
+   "discovered": 1939,
+   "fields": "Dukhan",
+   "total": 1.1,
+   "past": 0.8,
+   "future": 0.3,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 0.9
+    },
+    {
+     "interval": "Silurian",
+     "color": "#8c2d04",
+     "bbl": 0.2
+    }
+   ],
+   "x": 0.6176,
+   "y": 0.29205,
+   "r": 0.00655,
+   "note": "Upper Jurassic for the small oil leg; the giant gas accumulation here is Silurian-sourced"
+  },
+  {
+   "code": 3948,
+   "name": "Northwest Shelf",
+   "country": "Australia",
+   "city": "Karratha",
+   "city_km": 157,
+   "discovered": 1964,
+   "fields": "Barrow Island; Wanaea-Cossack",
+   "total": 1.1,
+   "past": 0.5,
+   "future": 0.6,
+   "intervals": [
+    {
+     "interval": "Upper Jurassic",
+     "color": "#fe9929",
+     "bbl": 0.6
+    }
+   ],
+   "x": 0.76983,
+   "y": 0.49411,
+   "r": 0.00655,
+   "note": "Dingo claystone (Jurassic); Mungaroo (Triassic) in other"
+  }
+ ]
+}
