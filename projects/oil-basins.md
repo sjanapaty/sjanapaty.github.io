@@ -41,7 +41,6 @@ permalink: /projects/oil-basins/
     background: #fff; border-radius: 999px; cursor: pointer; color: var(--ink);
   }
   .oil-controls button:hover { background: #f0ebdf; border-color: var(--accent); color: var(--accent); }
-  .oil-status { font-size: .76rem; color: var(--ink-soft); min-width: 9rem; text-align: right; }
 
   /* The panel is a permanent column rather than an overlay. Most of the world's
      oil sits on the right-hand side of the map, so a panel that slid over it
@@ -82,8 +81,17 @@ permalink: /projects/oil-basins/
   .oil-ints { list-style: none; padding: 0; margin: .2rem 0 0; font-size: .78rem; }
   .oil-ints li { display: flex; align-items: center; gap: .45rem; margin-bottom: .2rem; }
   .oil-ints span.sw { width: 11px; height: 11px; border-radius: 50%; border: 1px solid rgba(0,0,0,.45); flex: none; }
-  .oil-note { font-size: .74rem; color: var(--ink-soft); line-height: 1.45; margin-top: .8rem; border-top: 1px solid var(--line); padding-top: .6rem; }
-  .oil-hint { font-size: .78rem; color: var(--ink-soft); padding: .5rem 1.1rem; border-top: 1px solid var(--line); background: var(--bg-panel); }
+  .oil-hint {
+    font-size: .78rem; color: var(--ink); line-height: 1.5;
+    padding: .55rem 1.1rem; border-top: 1px solid var(--line); background: var(--bg-panel);
+  }
+  /* The site theme sets `body a { color: ... !important }`, so matching that
+     is the only way to keep these credits black. */
+  .oil-app .oil-hint a {
+    color: var(--ink) !important;
+    text-decoration: underline; text-underline-offset: 2px; text-decoration-color: #b9b3a5;
+  }
+  .oil-app .oil-hint a:hover { color: var(--accent) !important; text-decoration-color: var(--accent); }
 
   @media (max-width: 860px) {
     .oil-body { flex-direction: column; }
@@ -95,10 +103,9 @@ permalink: /projects/oil-basins/
   <div class="oil-topbar">
     <div>
       <h1>Which geological periods does the world's oil come from?</h1>
-      <p class="subtitle">An interactive map of global oil basins.</p>
+      <p class="subtitle">An interactive map of global oil fields by geological period.</p>
     </div>
     <div class="oil-controls">
-      <span class="oil-status" id="oil-status">Playing…</span>
       <button type="button" id="oil-replay">Replay</button>
     </div>
   </div>
@@ -111,12 +118,21 @@ permalink: /projects/oil-basins/
         <img src="{{ site.github.url }}/assets/img/projects/oil_history.gif"
              alt="Animated world map running from 460 million years ago to the present, with petroleum provinces appearing as their source rocks form.">
       </video>
-      <svg id="oil-overlay" viewBox="0 0 1375 814" preserveAspectRatio="none" aria-hidden="true"></svg>
+      <svg id="oil-overlay" viewBox="0 0 2500 1480" preserveAspectRatio="none" aria-hidden="true"></svg>
     </div>
     <aside class="oil-panel" id="oil-panel" aria-live="polite"></aside>
   </div>
 
-  <div class="oil-hint" id="oil-hint">The animation runs from 460 million years ago to today. When it finishes, every basin holding more than a billion barrels becomes clickable.</div>
+  <div class="oil-hint" id="oil-hint">
+    Province outlines from the
+    <a href="https://www.sciencebase.gov/catalog/item/60ad2fd7d34e4043c850edb3">USGS World Petroleum Assessment</a>.
+    Field data scraped from
+    <a href="https://en.wikipedia.org/wiki/List_of_oil_fields">Wikipedia</a>.
+    Source-rock ages from
+    <a href="https://www.searchanddiscovery.com/documents/animator/klemme2.htm">Klemme &amp; Ulmishek (1991)</a>.
+    Plate tectonics from
+    <a href="https://doi.org/10.1016/j.earscirev.2020.103477">Merdith et al. (2021)</a>.
+  </div>
 </div>
 
 <script>
@@ -125,14 +141,11 @@ permalink: /projects/oil-basins/
   var stage   = document.getElementById('oil-stage');
   var overlay = document.getElementById('oil-overlay');
   var panel   = document.getElementById('oil-panel');
-  var status  = document.getElementById('oil-status');
-  var hint    = document.getElementById('oil-hint');
   var replay  = document.getElementById('oil-replay');
   if (!video || !overlay) { return; }
 
   var SVGNS = 'http://www.w3.org/2000/svg';
   var data = null, ring = null;
-  var HINT_PLAYING = hint.textContent;
 
   function fmt(n) {
     if (n === null || n === undefined) { return '—'; }
@@ -142,9 +155,7 @@ permalink: /projects/oil-basins/
   var EMPTY_PLAYING = '<p class="oil-empty">The animation runs from 460 million ' +
     'years ago to today. Basins appear when their source rock was laid down, then ' +
     'drift with the continents.</p>';
-  var EMPTY_LIVE = '<p class="oil-empty"><b>Click any circle</b> to see which basin ' +
-    'it is, when it was found, and how much oil it holds. Colour is the age of the ' +
-    'source rock, oldest darkest.</p>';
+  var EMPTY_LIVE = '<p class="oil-empty"><b>Click any circle for more info!</b></p>';
 
   function closePanel() {
     panel.innerHTML = stage.classList.contains('is-live') ? EMPTY_LIVE : EMPTY_PLAYING;
@@ -171,12 +182,11 @@ permalink: /projects/oil-basins/
             '<i style="width:' + pastPct + '%;background:#7b3f00"></i>' +
             '<i style="width:' + (100 - pastPct) + '%;background:#fec44f"></i>' +
           '</div>' +
-          '<div class="oil-split">' + fmt(h.past) + ' already produced · ' +
+          '<div class="oil-split">' + fmt(h.past) + ' already produced, ' +
             fmt(h.future) + ' still to come</div>' +
         '</dd>' +
         '<dt>Source rock</dt><dd><ul class="oil-ints">' + ints + '</ul></dd>' +
-      '</dl>' +
-      (h.note ? '<div class="oil-note">' + h.note + '</div>' : '');
+      '</dl>';
 
     panel.querySelector('.close').addEventListener('click', closePanel);
 
@@ -232,8 +242,6 @@ permalink: /projects/oil-basins/
   function goLive() {
     if (!data) { return; }
     stage.classList.add('is-live');
-    status.textContent = data.hotspots.length + ' basins over 1 bn bbl';
-    hint.textContent = 'Volumes are recoverable oil, past and future. Province outlines from the USGS World Petroleum Assessment; field names and discovery years from Wikipedia; source-rock ages assigned by hand and approximate.';
     if (!panel.querySelector('h2')) { closePanel(); }
   }
 
@@ -241,8 +249,6 @@ permalink: /projects/oil-basins/
   replay.addEventListener('click', function () {
     stage.classList.remove('is-live');
     closePanel();
-    status.textContent = 'Playing…';
-    hint.textContent = HINT_PLAYING;
     video.currentTime = 0;
     video.play();
   });
@@ -264,7 +270,6 @@ permalink: /projects/oil-basins/
       if (video.ended || video.paused) { goLive(); }
     })
     .catch(function () {
-      status.textContent = '';
       panel.innerHTML = '<p class="oil-empty">The basin data could not be loaded.</p>';
     });
 })();

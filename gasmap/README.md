@@ -15,6 +15,8 @@ a progress indicator.
 | File | What it is |
 |---|---|
 | `make_oil.py` | Renders the animation and six interval stills |
+| `export_hotspots.py` | Writes `assets/data/oil_hotspots.json` for the interactive page |
+| `province_fields.csv` | Discovery year, major field names and produced-fraction per province |
 | `basins_oil.csv` | Known oil per province and its split across intervals. The judgment layer |
 | `usgs/WEP_PRVG.*` | USGS world geologic provinces, all 1,023 defined provinces |
 | `owid_oil.csv` | EIA proved oil reserves by country, via Our World in Data |
@@ -122,6 +124,14 @@ are judgment and have not been checked against a published per-basin source.
   frame is drawn. If it is not, the province circles still move but the
   continents silently stay at present day. Worth checking first if a new figure
   looks wrong.
+- `export_hotspots.py` duplicates `FIGSIZE`, `DPI`, the `GridSpec` settings and
+  the marker-size formula from `make_oil.py` so that the clickable circles land
+  on the drawn ones. Change either file and the same change is needed in the
+  other, then re-run the export, or the overlay drifts.
+- Frames render at 200 dpi, giving 2500 x 1480. The GIF is downscaled to 1100 px
+  because it is only a fallback; the page serves the full-resolution MP4.
+- The export refuses to write NaN. Invalid JSON fails silently in the browser as
+  a parse error, which is hard to trace back from an empty map.
 
 ## Sources
 

@@ -55,6 +55,12 @@ SURFACE, OCEAN, LAND, SHELF = "#fcfcfb", "#eef1f4", "#dedcd3", "#e8e6de"
 INK, INK2, MUTED = "#0b0b0b", "#52514e", "#898781"
 BAR_BG = "#eceae3"
 
+# Figure geometry. export_hotspots.py duplicates FIGSIZE and the marker formula,
+# so any change here needs the same change there or the clickable circles in the
+# web version drift off the drawn ones.
+FIGSIZE = (12.5, 7.4)
+DPI = 200          # 2500 x 1480, enough that the bar labels stay crisp
+
 MARKER_MIN, MARKER_MAX = 10.0, 900.0
 REF = 350.0        # billion barrels mapping to the largest marker
 MIN_DRAW = 0.05
@@ -114,17 +120,17 @@ def draw_bar(ax, t):
         reached = t <= dep
         ax.axvspan(a, b, 0.42, 0.80, color=c, lw=0, alpha=1.0 if reached else 0.30)
         ax.text((a + b) / 2, 0.30, short, ha="center", va="top", linespacing=1.25,
-                fontsize=7.5, color=INK if reached else MUTED,
+                fontsize=9.5, color=INK if reached else MUTED,
                 fontweight="bold" if reached else "normal")
 
     for age in (450, 400, 350, 300, 250, 200, 150, 100, 50, 0):
         if abs(age - t) < 20:      # keep clear of the moving time readout
             continue
-        ax.text(age, 0.86, f"{age}", ha="center", va="bottom", fontsize=6.5, color=MUTED)
+        ax.text(age, 0.86, f"{age}", ha="center", va="bottom", fontsize=8, color=MUTED)
 
-    ax.axvline(t, 0.36, 0.86, color=INK, lw=1.6)
+    ax.axvline(t, 0.36, 0.86, color=INK, lw=1.8)
     ha = "left" if t > 435 else ("right" if t < 25 else "center")
-    ax.text(t, 0.94, f"{t:,.0f} Ma", ha=ha, va="bottom", fontsize=10,
+    ax.text(t, 0.94, f"{t:,.0f} Ma", ha=ha, va="bottom", fontsize=12,
             color=INK, fontweight="bold")
 
 
@@ -158,15 +164,9 @@ def frame(fig, gs, plot, df, pos, t):
                    zorder=5, transform=CRS_PLATE)
         total += vals[sel].sum()
 
-    ax.text(0.995, 1.01, f"{total:,.0f} billion barrels", transform=ax.transAxes,
-            fontsize=11, color=INK, ha="right", va="bottom", fontweight="bold")
-
+    # The running total and the source note used to sit here. Both now live in
+    # the surrounding web page instead, so the frame stays clean.
     draw_bar(fig.add_subplot(gs[1]), t)
-    fig.text(0.012, 0.012,
-             "Plate model: Merdith et al. (2021).  Provinces and volumes: USGS World Petroleum Assessment 2000, "
-             "with hand-entered US provinces, unconventional resources and post-1995 discoveries.  "
-             "Interval attribution is approximate.",
-             fontsize=6.5, color=MUTED)
 
 
 def main():
@@ -182,6 +182,10 @@ def main():
     ap.add_argument("--gif-loops", type=int, default=-1,
                     help="GIF looping: -1 plays once and rests on the modern map, "
                          "0 loops forever, n repeats n times")
+    ap.add_argument("--dpi", type=int, default=DPI,
+                    help="frame resolution; the figure is 12.5 x 7.4 in, so 200 gives 2500 x 1480")
+    ap.add_argument("--gif-width", type=int, default=1100,
+                    help="GIF width in pixels; the MP4 keeps the full frame resolution")
     ap.add_argument("--stills", action="store_true")
     a = ap.parse_args()
 
@@ -196,9 +200,9 @@ def main():
         print(f"  {lab:32s} {(df[k]*df.vol).sum():8,.0f} bn bbl")
     print(f"  {'other / unattributed':32s} {(df['other']*df.vol).sum():8,.0f} bn bbl")
 
-    fig = plt.figure(figsize=(12.5, 7.4), facecolor=SURFACE)
+    fig = plt.figure(figsize=FIGSIZE, facecolor=SURFACE)
     gs = GridSpec(2, 1, height_ratios=[10, 1.5], figure=fig,
-                  left=0.015, right=0.985, top=0.955, bottom=0.055, hspace=0.16)
+                  left=0.015, right=0.985, top=0.985, bottom=0.045, hspace=0.16)
 
     times = (sorted({DEP_AGE[k] for k in KEYS} | {0}) if a.stills
              else [round(float(x), 3) for x in np.arange(T_START, -0.001, -a.step)])
@@ -209,7 +213,7 @@ def main():
         for t in sorted(times, reverse=True):
             frame(fig, gs, plot, df, pos, t)
             name = next((k for k in KEYS if DEP_AGE[k] == t), "present")
-            fig.savefig(a.out / f"interval_{name}.png", dpi=150, facecolor=SURFACE)
+            fig.savefig(a.out / f"interval_{name}.png", dpi=a.dpi, facecolor=SURFACE)
             print("  still", name)
         return
 
@@ -217,7 +221,7 @@ def main():
     fdir.mkdir(exist_ok=True)
     for i, t in enumerate(times):
         frame(fig, gs, plot, df, pos, t)
-        fig.savefig(fdir / f"f{i:04d}.png", dpi=110, facecolor=SURFACE)
+        fig.savefig(fdir / f"f{i:04d}.png", dpi=a.dpi, facecolor=SURFACE)
         if i % 10 == 0:
             print(f"  frame {i}/{len(times)}  {t} Ma")
     for j in range(a.hold):
@@ -229,9 +233,9 @@ def main():
                     "-i", str(fdir / "f%04d.png"), "-c:v", "libx264", "-pix_fmt", "yuv420p",
                     "-vf", "scale=trunc(iw/2)*2:trunc(ih/2)*2", str(mp4)], check=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4),
-                    "-vf", "fps=10,scale=950:-1:flags=lanczos,palettegen", str(pal)], check=True)
+                    "-vf", f"fps=10,scale={a.gif_width}:-1:flags=lanczos,palettegen", str(pal)], check=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4), "-i", str(pal),
-                    "-lavfi", "fps=10,scale=950:-1:flags=lanczos[x];[x][1:v]paletteuse",
+                    "-lavfi", f"fps=10,scale={a.gif_width}:-1:flags=lanczos[x];[x][1:v]paletteuse",
                     "-loop", str(a.gif_loops), str(gif)], check=True)
     pal.unlink(missing_ok=True)
     print("wrote", mp4, "and", gif)

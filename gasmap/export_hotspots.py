@@ -52,9 +52,9 @@ COLOR = {k: c for k, _, _, c in INTERVALS}
 MARKER_MIN, MARKER_MAX = 10.0, 900.0
 REF = 350.0
 FIGSIZE = (12.5, 7.4)
-DPI = 110
+DPI = 200
 GRID = dict(height_ratios=[10, 1.5], left=0.015, right=0.985,
-            top=0.955, bottom=0.055, hspace=0.16)
+            top=0.985, bottom=0.045, hspace=0.16)
 # -------------------------------------------------------------------------
 
 MIN_VOL = 1.0     # billion barrels; below this a province is not clickable

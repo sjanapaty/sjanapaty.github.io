@@ -1,6 +1,6 @@
 {
- "width": 1375,
- "height": 814,
+ "width": 2500,
+ "height": 1480,
  "hotspots": [
   {
    "code": 6098,
@@ -25,8 +25,8 @@
      "bbl": 17.5
     }
    ],
-   "x": 0.35235,
-   "y": 0.36555,
+   "x": 0.34579,
+   "y": 0.34979,
    "r": 0.01857,
    "note": "Orinoco extra-heavy oil belt, charged by Querecual and San Antonio (Cenomanian-Santonian); the 2000 assessment covered conventional oil only, so the USGS figure of 30 billion barrels omits the belt"
   },
@@ -53,8 +53,8 @@
      "bbl": 148.5
     }
    ],
-   "x": 0.6067,
-   "y": 0.26901,
+   "x": 0.61144,
+   "y": 0.24896,
    "r": 0.01599,
    "note": "Sargelu and Naokelekan (Jurassic) with Garau and Sulaiy (Cretaceous); raised toward Iraqi and Kuwaiti reserves plus cumulative production"
   },
@@ -81,8 +81,8 @@
      "bbl": 11.5
     }
    ],
-   "x": 0.61383,
-   "y": 0.29743,
+   "x": 0.61889,
+   "y": 0.27865,
    "r": 0.01674,
    "note": "Hanifa and Tuwaiq Mountain (Upper Jurassic) charge Ghawar; note this is a different source rock from the Silurian that charges the gas"
   },
@@ -114,8 +114,8 @@
      "bbl": 23.0
     }
    ],
-   "x": 0.60876,
-   "y": 0.26259,
+   "x": 0.6136,
+   "y": 0.24226,
    "r": 0.01495,
    "note": "Kazhdumi (Albian) and Garau for Iranian oil; Pabdeh (Paleogene) in other; raised toward Iranian reserves plus cumulative"
   },
@@ -142,8 +142,8 @@
      "bbl": 30.0
     }
    ],
-   "x": 0.27639,
-   "y": 0.15807,
+   "x": 0.26645,
+   "y": 0.13309,
    "r": 0.01414,
    "note": "Athabasca and Peace River oil sands, charged from Exshaw and Duvernay (Devonian-Mississippian) and Nordegg (Lower Jurassic, in other); oil sands are excluded from the conventional assessment"
   },
@@ -170,8 +170,8 @@
      "bbl": 20.0
     }
    ],
-   "x": 0.63549,
-   "y": 0.11977,
+   "x": 0.64151,
+   "y": 0.09309,
    "r": 0.01574,
    "note": "Bazhenov (Tithonian) is the oil source, unlike the Cenomanian Pokur that charges the gas"
   },
@@ -198,8 +198,8 @@
      "bbl": 45.0
     }
    ],
-   "x": 0.62086,
-   "y": 0.3102,
+   "x": 0.62623,
+   "y": 0.29199,
    "r": 0.01398,
    "note": "Upper Jurassic with Shuaiba and other Cretaceous sources; raised toward Emirati and Saudi reserves"
   },
@@ -226,8 +226,8 @@
      "bbl": 11.2
     }
    ],
-   "x": 0.6039,
-   "y": 0.1629,
+   "x": 0.60852,
+   "y": 0.13814,
    "r": 0.01238,
    "note": "Domanik (Frasnian); raised for cumulative production"
   },
@@ -249,8 +249,8 @@
      "bbl": 75.0
     }
    ],
-   "x": 0.33207,
-   "y": 0.36517,
+   "x": 0.3246,
+   "y": 0.3494,
    "r": 0.01288,
    "note": "La Luna (Cenomanian-Campanian); raised for cumulative production, which is large and old"
   },
@@ -272,8 +272,8 @@
      "bbl": 59.5
     }
    ],
-   "x": 0.51323,
-   "y": 0.3929,
+   "x": 0.51382,
+   "y": 0.37836,
    "r": 0.01217,
    "note": "Akata and Agbada; raised toward Nigerian reserves plus cumulative"
   },
@@ -295,8 +295,8 @@
      "bbl": 32.5
     }
    ],
-   "x": 0.54556,
-   "y": 0.27635,
+   "x": 0.54759,
+   "y": 0.25663,
    "r": 0.01051,
    "note": "Sirte Shale (Campanian) in other; Rachmat and Etel (Turonian) in mid-Cretaceous; raised toward Libyan reserves"
   },
@@ -318,8 +318,8 @@
      "bbl": 60.0
     }
    ],
-   "x": 0.50047,
-   "y": 0.15001,
+   "x": 0.50049,
+   "y": 0.12467,
    "r": 0.0122,
    "note": "Kimmeridge Clay and Draupne; no Carboniferous contribution to oil, unlike the gas"
   },
@@ -346,8 +346,8 @@
      "bbl": 15.0
     }
    ],
-   "x": 0.26972,
-   "y": 0.26338,
+   "x": 0.25949,
+   "y": 0.24308,
    "r": 0.01118,
    "note": "Wolfcamp, Bone Spring and Spraberry (Permian); Woodford secondary; US not covered by the 2000 world assessment"
   },
@@ -374,8 +374,8 @@
      "bbl": 18.0
     }
    ],
-   "x": 0.60517,
-   "y": 0.19022,
+   "x": 0.60984,
+   "y": 0.16668,
    "r": 0.00962,
    "note": "Tengiz, Kashagan and Karachaganak; Domanik-type Devonian-Carboniferous sources"
   },
@@ -397,8 +397,8 @@
      "bbl": 35.0
     }
    ],
-   "x": 0.28598,
-   "y": 0.32326,
+   "x": 0.27647,
+   "y": 0.30562,
    "r": 0.0107,
    "note": "Tithonian source, Mexican southeastern basins"
   },
@@ -430,8 +430,8 @@
      "bbl": 7.0
     }
    ],
-   "x": 0.27807,
-   "y": 0.2786,
+   "x": 0.26821,
+   "y": 0.25899,
    "r": 0.0086,
    "note": "Eagle Ford oil window (Cenomanian-Turonian); Gulf Coast Tertiary; Smackover secondary"
   },
@@ -453,8 +453,8 @@
      "bbl": 30.0
     }
    ],
-   "x": 0.39947,
-   "y": 0.52281,
+   "x": 0.395,
+   "y": 0.51404,
    "r": 0.01031,
    "note": "Pre-salt Lula and Buzios, Barremian-Aptian lacustrine source; discovered after 2006 so absent from the assessment"
   },
@@ -476,8 +476,8 @@
      "bbl": 21.2
     }
    ],
-   "x": 0.29005,
-   "y": 0.28313,
+   "x": 0.28072,
+   "y": 0.26372,
    "r": 0.00949,
    "note": "Offshore Gulf of Mexico Tertiary"
   },
@@ -499,8 +499,8 @@
      "bbl": 14.8
     }
    ],
-   "x": 0.75611,
-   "y": 0.23329,
+   "x": 0.76749,
+   "y": 0.21166,
    "r": 0.0087,
    "note": "Shahejie (Eocene-Oligocene) lacustrine; Daqing area excluded, see Songliao"
   },
@@ -522,8 +522,8 @@
      "bbl": 18.7
     }
    ],
-   "x": 0.23575,
-   "y": 0.2439,
+   "x": 0.224,
+   "y": 0.22274,
    "r": 0.00921,
    "note": "Monterey (Miocene); Kreyenhagen (Eocene) in other"
   },
@@ -545,8 +545,8 @@
      "bbl": 8.0
     }
    ],
-   "x": 0.24108,
-   "y": 0.10418,
+   "x": 0.22957,
+   "y": 0.07681,
    "r": 0.00754,
    "note": "Shublik (Triassic) in other; HRZ and pebble shale (Cretaceous); Prudhoe Bay"
   },
@@ -568,8 +568,8 @@
      "bbl": 17.4
     }
    ],
-   "x": 0.61288,
-   "y": 0.23361,
+   "x": 0.61789,
+   "y": 0.21199,
    "r": 0.00905,
    "note": "Maykop (Oligocene-Lower Miocene); Baku fields"
   },
@@ -596,8 +596,8 @@
      "bbl": 7.0
     }
    ],
-   "x": 0.60222,
-   "y": 0.27589,
+   "x": 0.60676,
+   "y": 0.25615,
    "r": 0.00802,
    "note": "Upper Jurassic with a Silurian contribution"
   },
@@ -619,8 +619,8 @@
      "bbl": 15.6
     }
    ],
-   "x": 0.76201,
-   "y": 0.20115,
+   "x": 0.77365,
+   "y": 0.17809,
    "r": 0.00882,
    "note": "Qingshankou (Cenomanian-Turonian) lacustrine; Daqing field"
   },
@@ -647,8 +647,8 @@
      "bbl": 6.1
     }
    ],
-   "x": 0.51854,
-   "y": 0.26517,
+   "x": 0.51936,
+   "y": 0.24495,
    "r": 0.00777,
    "note": "Frasnian (Devonian) dominant for oil; Silurian Tanezzuft secondary"
   },
@@ -670,8 +670,8 @@
      "bbl": 15.0
     }
    ],
-   "x": 0.37288,
-   "y": 0.37268,
+   "x": 0.36723,
+   "y": 0.35724,
    "r": 0.00874,
    "note": "Stabroek block, Canje Formation (Cenomanian-Turonian); discovered 2015, absent from the assessment"
   },
@@ -693,8 +693,8 @@
      "bbl": 11.0
     }
    ],
-   "x": 0.52564,
-   "y": 0.43814,
+   "x": 0.52678,
+   "y": 0.42561,
    "r": 0.00811,
    "note": "Bucomazi (Barremian lacustrine) and Cenomanian-Turonian marine; Congo and Gabon"
   },
@@ -716,8 +716,8 @@
      "bbl": 7.9
     }
    ],
-   "x": 0.73878,
-   "y": 0.40444,
+   "x": 0.74939,
+   "y": 0.39041,
    "r": 0.00752,
    "note": "Pematang (Eocene-Oligocene) lacustrine; Minas field"
   },
@@ -739,8 +739,8 @@
      "bbl": 11.1
     }
    ],
-   "x": 0.5993,
-   "y": 0.11528,
+   "x": 0.60371,
+   "y": 0.0884,
    "r": 0.00814,
    "note": "Domanik (Upper Devonian)"
   },
@@ -767,8 +767,8 @@
      "bbl": 1.2
     }
    ],
-   "x": 0.28825,
-   "y": 0.19956,
+   "x": 0.27884,
+   "y": 0.17643,
    "r": 0.00808,
    "note": "Bakken and Three Forks (Devonian-Mississippian), US portion"
   },
@@ -790,8 +790,8 @@
      "bbl": 10.8
     }
    ],
-   "x": 0.29941,
-   "y": 0.26334,
+   "x": 0.29049,
+   "y": 0.24304,
    "r": 0.00808,
    "note": "Smackover and Tuscaloosa"
   },
@@ -813,8 +813,8 @@
      "bbl": 10.1
     }
    ],
-   "x": 0.408,
-   "y": 0.50759,
+   "x": 0.40392,
+   "y": 0.49815,
    "r": 0.00796,
    "note": "Lagoa Feia (Barremian-Aptian lacustrine)"
   },
@@ -836,8 +836,8 @@
      "bbl": 10.0
     }
    ],
-   "x": 0.23725,
-   "y": 0.25572,
+   "x": 0.22557,
+   "y": 0.23508,
    "r": 0.00794,
    "note": "Monterey (Miocene); among the most prolific basins per unit area on Earth"
   },
@@ -859,8 +859,8 @@
      "bbl": 9.9
     }
    ],
-   "x": 0.58815,
-   "y": 0.31227,
+   "x": 0.59207,
+   "y": 0.29414,
    "r": 0.00792,
    "note": "Miocene source and evaporite seal"
   },
@@ -887,8 +887,8 @@
      "bbl": 1.9
     }
    ],
-   "x": 0.60251,
-   "y": 0.21244,
+   "x": 0.60707,
+   "y": 0.18988,
    "r": 0.00747,
    "note": "Maykop; Jurassic secondary"
   },
@@ -910,8 +910,8 @@
      "bbl": 6.7
     }
    ],
-   "x": 0.66267,
-   "y": 0.31517,
+   "x": 0.6699,
+   "y": 0.29718,
    "r": 0.00724,
    "note": "Mumbai High, Eocene-Miocene"
   },
@@ -938,8 +938,8 @@
      "bbl": 3.2
     }
    ],
-   "x": 0.2869,
-   "y": 0.26212,
+   "x": 0.27743,
+   "y": 0.24177,
    "r": 0.0067,
    "note": "Smackover and Bossier; Eagle Ford and Woodbine"
   },
@@ -966,9 +966,9 @@
      "bbl": 3.6
     }
    ],
-   "x": 0.28076,
-   "y": 0.24195,
-   "r": 0.00655,
+   "x": 0.27101,
+   "y": 0.2207,
+   "r": 0.00643,
    "note": "Woodford (Devonian-Mississippian) and Pennsylvanian sources"
   },
   {
@@ -989,8 +989,8 @@
      "bbl": 6.9
     }
    ],
-   "x": 0.76846,
-   "y": 0.38014,
+   "x": 0.78039,
+   "y": 0.36503,
    "r": 0.00728,
    "note": "Miocene deltaic"
   },
@@ -1012,8 +1012,8 @@
      "bbl": 6.9
     }
    ],
-   "x": 0.27598,
-   "y": 0.3107,
+   "x": 0.26602,
+   "y": 0.29251,
    "r": 0.00728,
    "note": "Tithonian source, Golden Lane"
   },
@@ -1035,8 +1035,8 @@
      "bbl": 5.4
     }
    ],
-   "x": 0.68286,
-   "y": 0.20344,
+   "x": 0.69099,
+   "y": 0.18048,
    "r": 0.00689,
    "note": "Fengcheng (Permian) lacustrine"
   },
@@ -1058,8 +1058,8 @@
      "bbl": 6.6
     }
    ],
-   "x": 0.32505,
-   "y": 0.41754,
+   "x": 0.31727,
+   "y": 0.4041,
    "r": 0.00721,
    "note": "Napo and Chonta (Cenomanian-Turonian)"
   },
@@ -1086,9 +1086,9 @@
      "bbl": 2.4
     }
    ],
-   "x": 0.27971,
-   "y": 0.26267,
-   "r": 0.00655,
+   "x": 0.26992,
+   "y": 0.24234,
+   "r": 0.00628,
    "note": "Barnett oil window and Pennsylvanian sources"
   },
   {
@@ -1109,8 +1109,8 @@
      "bbl": 5.9
     }
    ],
-   "x": 0.55396,
-   "y": 0.20574,
+   "x": 0.55636,
+   "y": 0.18288,
    "r": 0.00702,
    "note": "Menilite (Oligocene); Ploiesti fields"
   },
@@ -1137,9 +1137,9 @@
      "bbl": 1.1
     }
    ],
-   "x": 0.33232,
-   "y": 0.38684,
-   "r": 0.00655,
+   "x": 0.32486,
+   "y": 0.37203,
+   "r": 0.00654,
    "note": "Gacheta (Cenomanian-Turonian)"
   },
   {
@@ -1160,8 +1160,8 @@
      "bbl": 5.0
     }
    ],
-   "x": 0.2355,
-   "y": 0.25261,
+   "x": 0.22374,
+   "y": 0.23184,
    "r": 0.00676,
    "note": "Monterey and Rincon (Miocene)"
   },
@@ -1188,9 +1188,9 @@
      "bbl": 1.0
     }
    ],
-   "x": 0.28922,
-   "y": 0.24315,
-   "r": 0.00655,
+   "x": 0.27985,
+   "y": 0.22196,
+   "r": 0.00643,
    "note": "Pennsylvanian cyclothem shales; Woodford secondary"
   },
   {
@@ -1216,9 +1216,9 @@
      "bbl": 0.5
     }
    ],
-   "x": 0.60763,
-   "y": 0.29965,
-   "r": 0.00655,
+   "x": 0.61242,
+   "y": 0.28096,
+   "r": 0.00651,
    "note": "Upper Jurassic; central Saudi Arabia"
   },
   {
@@ -1239,9 +1239,9 @@
      "bbl": 2.2
     }
    ],
-   "x": 0.62963,
-   "y": 0.30516,
-   "r": 0.00655,
+   "x": 0.63539,
+   "y": 0.28672,
+   "r": 0.00565,
    "note": "Natih (Cenomanian); Huqf (Neoproterozoic) in other"
   },
   {
@@ -1267,9 +1267,9 @@
      "bbl": 0.7
     }
    ],
-   "x": 0.30744,
-   "y": 0.23555,
-   "r": 0.00655,
+   "x": 0.29888,
+   "y": 0.21402,
+   "r": 0.00636,
    "note": "New Albany Shale (Upper Devonian)"
   },
   {
@@ -1290,9 +1290,9 @@
      "bbl": 3.2
     }
    ],
-   "x": 0.3232,
-   "y": 0.23452,
-   "r": 0.00655,
+   "x": 0.31535,
+   "y": 0.21295,
+   "r": 0.00611,
    "note": "Devonian black shales; Ordovician in other"
   },
   {
@@ -1313,9 +1313,9 @@
      "bbl": 1.2
     }
    ],
-   "x": 0.82177,
-   "y": 0.58337,
-   "r": 0.00655,
+   "x": 0.83607,
+   "y": 0.57729,
+   "r": 0.00491,
    "note": "Latrobe Group, Late Cretaceous to Eocene"
   },
   {
@@ -1341,9 +1341,9 @@
      "bbl": 1.9
     }
    ],
-   "x": 0.5179,
-   "y": 0.28284,
-   "r": 0.00655,
+   "x": 0.5187,
+   "y": 0.26341,
+   "r": 0.00542,
    "note": "Silurian Tanezzuft and Devonian sources"
   },
   {
@@ -1364,9 +1364,9 @@
      "bbl": 3.6
     }
    ],
-   "x": 0.74075,
-   "y": 0.37041,
-   "r": 0.00655,
+   "x": 0.75145,
+   "y": 0.35487,
+   "r": 0.00628,
    "note": "Oligocene-Miocene lacustrine and coaly"
   },
   {
@@ -1392,9 +1392,9 @@
      "bbl": 0.4
     }
    ],
-   "x": 0.29201,
-   "y": 0.17437,
-   "r": 0.00655,
+   "x": 0.28276,
+   "y": 0.15012,
+   "r": 0.00609,
    "note": "Bakken and Lodgepole, Canadian portion"
   },
   {
@@ -1415,9 +1415,9 @@
      "bbl": 3.3
     }
    ],
-   "x": 0.35776,
-   "y": 0.61157,
-   "r": 0.00655,
+   "x": 0.35144,
+   "y": 0.60675,
+   "r": 0.00616,
    "note": "Pozo D-129 (Aptian lacustrine)"
   },
   {
@@ -1438,9 +1438,9 @@
      "bbl": 3.2
     }
    ],
-   "x": 0.75315,
-   "y": 0.43127,
-   "r": 0.00655,
+   "x": 0.7644,
+   "y": 0.41844,
+   "r": 0.00611,
    "note": "Oligocene-Miocene"
   },
   {
@@ -1461,9 +1461,9 @@
      "bbl": 3.0
     }
    ],
-   "x": 0.23277,
-   "y": 0.24811,
-   "r": 0.00655,
+   "x": 0.2209,
+   "y": 0.22713,
+   "r": 0.00603,
    "note": "Monterey (Miocene)"
   },
   {
@@ -1484,9 +1484,9 @@
      "bbl": 2.1
     }
    ],
-   "x": 0.27665,
-   "y": 0.20881,
-   "r": 0.00655,
+   "x": 0.26673,
+   "y": 0.18609,
+   "r": 0.00557,
    "note": "Mowry and Niobrara"
   },
   {
@@ -1507,9 +1507,9 @@
      "bbl": 2.5
     }
    ],
-   "x": 0.27563,
-   "y": 0.22417,
-   "r": 0.00655,
+   "x": 0.26566,
+   "y": 0.20213,
+   "r": 0.00581,
    "note": "Niobrara and Mowry"
   },
   {
@@ -1530,9 +1530,9 @@
      "bbl": 0.9
     }
    ],
-   "x": 0.26412,
-   "y": 0.22991,
-   "r": 0.00655,
+   "x": 0.25364,
+   "y": 0.20813,
+   "r": 0.00465,
    "note": "Green River Formation (Eocene lacustrine) in other; Mancos secondary"
   },
   {
@@ -1563,9 +1563,9 @@
      "bbl": 0.6
     }
    ],
-   "x": 0.2704,
-   "y": 0.20838,
-   "r": 0.00655,
+   "x": 0.26019,
+   "y": 0.18565,
+   "r": 0.00518,
    "note": "Mowry and Cody; Phosphoria (Permian) and Devonian secondary"
   },
   {
@@ -1586,9 +1586,9 @@
      "bbl": 2.9
     }
    ],
-   "x": 0.77387,
-   "y": 0.40946,
-   "r": 0.00655,
+   "x": 0.78604,
+   "y": 0.39566,
+   "r": 0.00598,
    "note": "Miocene deltaic coals, Mahakam"
   },
   {
@@ -1609,9 +1609,9 @@
      "bbl": 2.4
     }
    ],
-   "x": 0.51381,
-   "y": 0.11927,
-   "r": 0.00655,
+   "x": 0.51442,
+   "y": 0.09257,
+   "r": 0.00575,
    "note": "Spekk and Draupne"
   },
   {
@@ -1632,9 +1632,9 @@
      "bbl": 1.5
     }
    ],
-   "x": 0.71414,
-   "y": 0.28846,
-   "r": 0.00655,
+   "x": 0.72366,
+   "y": 0.26928,
+   "r": 0.00518,
    "note": "Eocene-Oligocene deltaic and coaly"
   },
   {
@@ -1655,9 +1655,9 @@
      "bbl": 2.4
     }
    ],
-   "x": 0.7448,
-   "y": 0.41955,
-   "r": 0.00655,
+   "x": 0.75568,
+   "y": 0.40619,
+   "r": 0.00574,
    "note": "Talang Akar, Oligocene-Miocene"
   },
   {
@@ -1678,9 +1678,9 @@
      "bbl": 2.4
     }
    ],
-   "x": 0.32747,
-   "y": 0.37456,
-   "r": 0.00655,
+   "x": 0.3198,
+   "y": 0.35921,
+   "r": 0.00574,
    "note": "La Luna"
   },
   {
@@ -1701,9 +1701,9 @@
      "bbl": 1.9
     }
    ],
-   "x": 0.34979,
-   "y": 0.57476,
-   "r": 0.00655,
+   "x": 0.34311,
+   "y": 0.5683,
+   "r": 0.00546,
    "note": "Vaca Muerta (Tithonian); Los Molles in other"
   },
   {
@@ -1724,9 +1724,9 @@
      "bbl": 1.4
     }
    ],
-   "x": 0.61547,
-   "y": 0.20675,
-   "r": 0.00655,
+   "x": 0.6206,
+   "y": 0.18394,
+   "r": 0.00513,
    "note": "Jurassic sources"
   },
   {
@@ -1747,9 +1747,9 @@
      "bbl": 2.4
     }
    ],
-   "x": 0.28325,
-   "y": 0.32421,
-   "r": 0.00655,
+   "x": 0.27362,
+   "y": 0.30662,
+   "r": 0.00574,
    "note": "Tithonian source"
   },
   {
@@ -1770,9 +1770,9 @@
      "bbl": 0.7
     }
    ],
-   "x": 0.51566,
-   "y": 0.16795,
-   "r": 0.00655,
+   "x": 0.51635,
+   "y": 0.14341,
+   "r": 0.00441,
    "note": "Posidonia Shale (Lower Jurassic, Toarcian) in other; Wealden secondary. The gas here comes from Carboniferous coal instead"
   },
   {
@@ -1798,9 +1798,9 @@
      "bbl": 0.7
     }
    ],
-   "x": 0.52931,
-   "y": 0.25063,
-   "r": 0.00655,
+   "x": 0.53062,
+   "y": 0.22977,
+   "r": 0.00521,
    "note": "Bahloul (Cenomanian-Turonian)"
   },
   {
@@ -1821,9 +1821,9 @@
      "bbl": 2.2
     }
    ],
-   "x": 0.5392,
-   "y": 0.19734,
-   "r": 0.00655,
+   "x": 0.54095,
+   "y": 0.17411,
+   "r": 0.00563,
    "note": "Miocene lacustrine"
   },
   {
@@ -1844,9 +1844,9 @@
      "bbl": 2.2
     }
    ],
-   "x": 0.78922,
-   "y": 0.1772,
-   "r": 0.00655,
+   "x": 0.80207,
+   "y": 0.15308,
+   "r": 0.00563,
    "note": "Oligocene-Miocene"
   },
   {
@@ -1861,9 +1861,9 @@
    "past": 0.0,
    "future": 2.0,
    "intervals": [],
-   "x": 0.70321,
-   "y": 0.13597,
-   "r": 0.00655,
+   "x": 0.71224,
+   "y": 0.11002,
+   "r": 0.0036,
    "note": "Riphean-Vendian source, Siberian platform"
   },
   {
@@ -1884,9 +1884,9 @@
      "bbl": 2.0
     }
    ],
-   "x": 0.23231,
-   "y": 0.24175,
-   "r": 0.00655,
+   "x": 0.22042,
+   "y": 0.22049,
+   "r": 0.00551,
    "note": "Monterey (Miocene)"
   },
   {
@@ -1907,9 +1907,9 @@
      "bbl": 2.0
     }
    ],
-   "x": 0.23328,
-   "y": 0.25339,
-   "r": 0.00655,
+   "x": 0.22143,
+   "y": 0.23265,
+   "r": 0.00551,
    "note": "Monterey (Miocene), offshore California"
   },
   {
@@ -1930,9 +1930,9 @@
      "bbl": 1.2
     }
    ],
-   "x": 0.26548,
-   "y": 0.21668,
-   "r": 0.00655,
+   "x": 0.25505,
+   "y": 0.19431,
+   "r": 0.00494,
    "note": "Mowry and Hilliard"
   },
   {
@@ -1958,9 +1958,9 @@
      "bbl": 0.2
     }
    ],
-   "x": 0.28602,
-   "y": 0.23722,
-   "r": 0.00655,
+   "x": 0.27651,
+   "y": 0.21576,
+   "r": 0.00539,
    "note": "Pennsylvanian sources"
   },
   {
@@ -1981,9 +1981,9 @@
      "bbl": 1.4
     }
    ],
-   "x": 0.26346,
-   "y": 0.24311,
-   "r": 0.00655,
+   "x": 0.25295,
+   "y": 0.22191,
+   "r": 0.0051,
    "note": "Mancos (Turonian); Fruitland in other"
   },
   {
@@ -2004,9 +2004,9 @@
      "bbl": 0.8
     }
    ],
-   "x": 0.30926,
-   "y": 0.43067,
-   "r": 0.00655,
+   "x": 0.30078,
+   "y": 0.41782,
+   "r": 0.0046,
    "note": "Cretaceous and Eocene sources"
   },
   {
@@ -2032,9 +2032,9 @@
      "bbl": 0.5
     }
    ],
-   "x": 0.56993,
-   "y": 0.18314,
-   "r": 0.00655,
+   "x": 0.57304,
+   "y": 0.15928,
+   "r": 0.00487,
    "note": "Visean-Serpukhovian and Pennsylvanian"
   },
   {
@@ -2055,9 +2055,9 @@
      "bbl": 1.6
     }
    ],
-   "x": 0.39332,
-   "y": 0.16552,
-   "r": 0.00655,
+   "x": 0.38858,
+   "y": 0.14087,
+   "r": 0.00525,
    "note": "Egret Member (Kimmeridgian); Hibernia"
   },
   {
@@ -2083,9 +2083,9 @@
      "bbl": 0.6
     }
    ],
-   "x": 0.31746,
-   "y": 0.20899,
-   "r": 0.00655,
+   "x": 0.30934,
+   "y": 0.18628,
+   "r": 0.00465,
    "note": "Niagaran (Silurian) pinnacle reefs and Antrim-related Devonian sources"
   },
   {
@@ -2106,9 +2106,9 @@
      "bbl": 1.5
     }
    ],
-   "x": 0.20367,
-   "y": 0.14564,
-   "r": 0.00655,
+   "x": 0.19049,
+   "y": 0.12012,
+   "r": 0.00518,
    "note": "Cook Inlet Tyonek (Miocene)"
   },
   {
@@ -2129,9 +2129,9 @@
      "bbl": 0.3
     }
    ],
-   "x": 0.63129,
-   "y": 0.3114,
-   "r": 0.00655,
+   "x": 0.63713,
+   "y": 0.29324,
+   "r": 0.00367,
    "note": "Huqf (Neoproterozoic) in other; Sahmah (Silurian) secondary"
   },
   {
@@ -2157,9 +2157,9 @@
      "bbl": 0.4
     }
    ],
-   "x": 0.35658,
-   "y": 0.63436,
-   "r": 0.00655,
+   "x": 0.35021,
+   "y": 0.63055,
+   "r": 0.00459,
    "note": "Springhill (Lower Cretaceous); Jurassic secondary"
   },
   {
@@ -2180,9 +2180,9 @@
      "bbl": 1.2
     }
    ],
-   "x": 0.60569,
-   "y": 0.33621,
-   "r": 0.00655,
+   "x": 0.61039,
+   "y": 0.31915,
+   "r": 0.00494,
    "note": "Madbi (Upper Jurassic)"
   },
   {
@@ -2208,9 +2208,9 @@
      "bbl": 0.2
     }
    ],
-   "x": 0.6176,
-   "y": 0.29205,
-   "r": 0.00655,
+   "x": 0.62283,
+   "y": 0.27303,
+   "r": 0.00463,
    "note": "Upper Jurassic for the small oil leg; the giant gas accumulation here is Silurian-sourced"
   },
   {
@@ -2231,9 +2231,9 @@
      "bbl": 0.6
     }
    ],
-   "x": 0.76983,
-   "y": 0.49411,
-   "r": 0.00655,
+   "x": 0.78182,
+   "y": 0.48407,
+   "r": 0.00422,
    "note": "Dingo claystone (Jurassic); Mungaroo (Triassic) in other"
   }
  ]
