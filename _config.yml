@@ -2,3 +2,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Shloka V. Janapaty" # the name of your site, e.g. ACME Corp.
 description: "sj9547 [at] princeton [dot] edu"
+
+# Data-processing pipeline for the oil basins project. Its outputs are copied
+# into assets/img/projects, so the source folder itself is not part of the site.
+exclude:
+  - gasmap/
+  - vendor/

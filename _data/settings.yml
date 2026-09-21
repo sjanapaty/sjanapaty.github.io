@@ -1,4 +1,5 @@
 menu:
+- {name: 'Projects', url: '/projects/'}
 - {name: 'Digital Shelves', url: '/shelves/'}
 
 people:
