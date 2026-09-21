@@ -112,10 +112,13 @@ permalink: /projects/oil-basins/
 
   <div class="oil-body">
     <div class="oil-stage" id="oil-stage">
+      <!-- The ?v= tag is a cache buster. Browsers hold on to video hard, so
+           bump it whenever the animation is re-rendered or returning visitors
+           keep seeing the old clip. -->
       <video id="oil-animation" autoplay muted playsinline
-             poster="{{ site.github.url }}/assets/img/projects/interval_present.png">
-        <source src="{{ site.github.url }}/assets/img/projects/oil_history.mp4" type="video/mp4">
-        <img src="{{ site.github.url }}/assets/img/projects/oil_history.gif"
+             poster="{{ site.github.url }}/assets/img/projects/interval_present.png?v=2">
+        <source src="{{ site.github.url }}/assets/img/projects/oil_history.mp4?v=2" type="video/mp4">
+        <img src="{{ site.github.url }}/assets/img/projects/oil_history.gif?v=2"
              alt="Animated world map running from 460 million years ago to the present, with petroleum provinces appearing as their source rocks form.">
       </video>
       <svg id="oil-overlay" viewBox="0 0 2500 1480" preserveAspectRatio="none" aria-hidden="true"></svg>
@@ -132,6 +135,7 @@ permalink: /projects/oil-basins/
     <a href="https://www.searchanddiscovery.com/documents/animator/klemme2.htm">Klemme &amp; Ulmishek (1991)</a>.
     Plate tectonics from
     <a href="https://doi.org/10.1016/j.earscirev.2020.103477">Merdith et al. (2021)</a>.
+    Attribution of interval fractions by Claude.
   </div>
 </div>
 
@@ -166,7 +170,7 @@ permalink: /projects/oil-basins/
     var pastPct = h.total > 0 ? (100 * h.past / h.total) : 0;
     var ints = h.intervals.map(function (p) {
       return '<li><span class="sw" style="background:' + p.color + '"></span>' +
-             p.interval + ' · ' + fmt(p.bbl) + '</li>';
+             p.interval + ': ' + fmt(p.bbl) + ' BBO</li>';
     }).join('');
 
     panel.innerHTML =
@@ -176,7 +180,7 @@ permalink: /projects/oil-basins/
       '<dl>' +
         '<dt>Discovered</dt><dd>' + (h.discovered || '—') + '</dd>' +
         '<dt>Major fields</dt><dd>' + (h.fields || '—') + '</dd>' +
-        '<dt>Recoverable oil, past and future</dt>' +
+        '<dt>Recoverable oil (past and future)</dt>' +
         '<dd>' + fmt(h.total) + ' billion barrels' +
           '<div class="oil-bar">' +
             '<i style="width:' + pastPct + '%;background:#7b3f00"></i>' +
