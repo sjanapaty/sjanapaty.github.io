@@ -14,6 +14,9 @@ body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
+  /* Source Serif reads larger than Inter at the same size, so the serif tier
+     sits a step below the sans entry titles above it. */
+  font-size: 0.9375rem;
   line-height: 1.5;
 }
 
@@ -28,12 +31,14 @@ h1, h2, h3, h4, h5, h6,
    than a heading, so it needs its own hook. */
 .entry-title {
   font-family: $headingFont;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 /* the site's own nav, which reads as UI rather than prose */
 header nav a {
   font-family: $headingFont;
+  font-size: 1rem;
 }
 
 body a {
