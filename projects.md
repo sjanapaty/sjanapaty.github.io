@@ -18,7 +18,7 @@ permalink: /projects/
 {% for item in site.data.settings.projects %}
 <div class="mt-3 mb-4">
   <h5 class="mb-1">
-    <a href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+    <a class="entry-title" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
   </h5>
   <p class="mb-0 text-muted">{{ item.description }}</p>
 </div>

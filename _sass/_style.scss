@@ -1,8 +1,13 @@
 
-/* Georgia font implementation */
+/* Type borrowed from the three index columns on djbinder.com:
+     tier 1  section headings   sans, bold
+     tier 2  entry titles       sans, semibold
+     tier 3  descriptions/body  serif, regular
+   Link colour stays this site's green. */
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
-$bodyFont: Georgia, serif;
+$bodyFont: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+$headingFont: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 $linkColor: #18af04;
 
 body {
@@ -10,6 +15,25 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
   line-height: 1.5;
+}
+
+/* tier 1 */
+h1, h2, h3, h4, h5, h6,
+.site-title {
+  font-family: $headingFont;
+  font-weight: 700;
+}
+
+/* tier 2: the linked title of a listing entry, which is a bare anchor rather
+   than a heading, so it needs its own hook. */
+.entry-title {
+  font-family: $headingFont;
+  font-weight: 600;
+}
+
+/* the site's own nav, which reads as UI rather than prose */
+header nav a {
+  font-family: $headingFont;
 }
 
 body a {

@@ -98,7 +98,7 @@ permalink: /projects/oil-basins/
   <div class="oil-topbar">
     <div>
       <h1>Which geological periods does the world's oil come from?</h1>
-      <p class="subtitle">An interactive map of global oil basins by geological period.</p>
+      <p class="subtitle">A map of global oil basins over 500 million years of geology.</p>
     </div>
     <div class="oil-controls">
       <button type="button" id="oil-replay">Replay</button>

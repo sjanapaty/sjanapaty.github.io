@@ -7,7 +7,7 @@ menu:
 projects:
 - name: "Which geological periods does the world's oil come from?"
   url: '/projects/oil-basins/'
-  description: 'An interactive map of global oil basins by geological period.'
+  description: 'A map of global oil basins over 500 million years of geology.'
 
 people:
 - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
