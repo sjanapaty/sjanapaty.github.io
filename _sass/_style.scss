@@ -1,7 +1,7 @@
 
 /* Type borrowed from the three index columns on djbinder.com:
-     tier 1  section headings   sans, bold (h5 sub-headings: serif, bold)
-     tier 2  entry titles       sans, semibold
+     tier 1  section headings   sans, bold
+     tier 2  entry titles       serif, bold (shared with h5 sub-headings)
      tier 3  descriptions/body  serif, regular
    Link colour stays this site's green. */
 $backgroundColor: #ffffff;
@@ -14,8 +14,8 @@ body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-  /* Source Serif reads larger than Inter at the same size, so the serif tier
-     sits a step below the sans entry titles above it. */
+  /* Source Serif reads larger than Inter at the same size, so body text sits
+     a step below the headings. */
   font-size: 0.9375rem;
   line-height: 1.5;
 }
@@ -27,19 +27,20 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 700;
 }
 
-/* sub-headings (the home page's column headings, the shelves' years) switch to
-   the serif, sized between the body text and the headings above them. */
-h5 {
+/* tier 2: sub-headings (the shelves' years) and the linked title of a listing
+   entry, which is a bare anchor rather than a heading, so it needs its own
+   hook. Sized between the body text and the headings above them. */
+h5,
+.entry-title {
   font-family: $bodyFont;
   font-size: 1.125rem;
+  font-weight: 700;
 }
 
-/* tier 2: the linked title of a listing entry, which is a bare anchor rather
-   than a heading, so it needs its own hook. */
-.entry-title {
+/* the home page's column headings are h5s but belong to tier 1 */
+.section-title {
   font-family: $headingFont;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.25rem;
 }
 
 /* the site's own nav, which reads as UI rather than prose */
