@@ -1,23 +1,18 @@
 ---
-layout: default
+layout: bare
 title: "Which geological periods does the world's oil come from?"
 permalink: /projects/oil-basins/
 ---
 
 <style>
-  /* This page is a wide visual, so let it out of the site's reading column.
-     Bootstrap's .col-lg-8 sets width, not max-width, so width has to be
-     overridden here or the page stays at two thirds of the viewport. */
-  body > .col-lg-8 { width: 100%; max-width: 1340px; }
-
   .oil-app {
-    --bg: #f4f1ea;
-    --bg-panel: #fbfaf6;
-    --ink: #2b2b29;
-    --ink-soft: #6b6a64;
-    --line: #d8d3c6;
-    --accent: #7b3f00;
-    --shadow: 0 6px 24px rgba(40, 35, 25, .18);
+    --bg: #0d0d0d;
+    --bg-panel: #141414;
+    --ink: #f0ede6;
+    --ink-soft: #9a958c;
+    --line: #2e2c28;
+    --accent: #fe9929;
+    --shadow: 0 6px 24px rgba(0, 0, 0, .55);
     color: var(--ink);
     border: 1px solid var(--line);
     border-radius: 10px;
@@ -30,7 +25,7 @@ permalink: /projects/oil-basins/
     gap: 1.5rem; flex-wrap: wrap;
     padding: .7rem 1.1rem;
     border-bottom: 1px solid var(--line);
-    background: linear-gradient(180deg, #fbfaf6, #f1ede3);
+    background: linear-gradient(180deg, #171717, #101010);
   }
   .oil-topbar h1 { margin: 0; font-size: 1.2rem; letter-spacing: .2px; font-weight: 700; }
   .oil-topbar .subtitle { margin: .2rem 0 0; font-size: .82rem; color: var(--ink-soft); }
@@ -38,22 +33,22 @@ permalink: /projects/oil-basins/
   .oil-controls button {
     font: inherit; font-size: .82rem;
     padding: .3rem .75rem; border: 1px solid var(--line);
-    background: #fff; border-radius: 999px; cursor: pointer; color: var(--ink);
+    background: #1d1d1d; border-radius: 999px; cursor: pointer; color: var(--ink);
   }
-  .oil-controls button:hover { background: #f0ebdf; border-color: var(--accent); color: var(--accent); }
+  .oil-controls button:hover { background: #262626; border-color: var(--accent); color: var(--accent); }
 
   /* The panel is a permanent column rather than an overlay. Most of the world's
      oil sits on the right-hand side of the map, so a panel that slid over it
      would cover the Middle East, and one that appeared on click would resize
      the map out from under the circle just clicked. */
   .oil-body { display: flex; align-items: stretch; }
-  .oil-stage { position: relative; flex: 1 1 auto; min-width: 0; background: #fcfcfb; }
+  .oil-stage { position: relative; flex: 1 1 auto; min-width: 0; background: #0d0d0d; }
   .oil-stage video { display: block; width: 100%; height: auto; }
   .oil-stage svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
   .oil-stage.is-live svg { pointer-events: auto; }
 
   .oil-hit { fill: transparent; stroke: none; cursor: pointer; }
-  .oil-stage.is-live .oil-hit:hover { fill: rgba(123, 63, 0, .20); }
+  .oil-stage.is-live .oil-hit:hover { fill: rgba(254, 153, 41, .28); }
   .oil-ring { fill: none; stroke: var(--accent); stroke-width: 2.5; opacity: 0; pointer-events: none; }
   .oil-ring.on { opacity: 1; }
 
@@ -75,12 +70,12 @@ permalink: /projects/oil-basins/
   .oil-panel dl { margin: 0 0 .9rem; font-size: .82rem; }
   .oil-panel dt { color: var(--ink-soft); margin-top: .5rem; }
   .oil-panel dd { margin: 0; font-weight: 600; }
-  .oil-bar { display: flex; height: 9px; border-radius: 5px; overflow: hidden; margin: .35rem 0 .2rem; background: #e7e2d6; }
+  .oil-bar { display: flex; height: 9px; border-radius: 5px; overflow: hidden; margin: .35rem 0 .2rem; background: #2e2c28; }
   .oil-bar i { display: block; height: 100%; }
   .oil-split { font-size: .74rem; color: var(--ink-soft); }
   .oil-ints { list-style: none; padding: 0; margin: .2rem 0 0; font-size: .78rem; }
   .oil-ints li { display: flex; align-items: center; gap: .45rem; margin-bottom: .2rem; }
-  .oil-ints span.sw { width: 11px; height: 11px; border-radius: 50%; border: 1px solid rgba(0,0,0,.45); flex: none; }
+  .oil-ints span.sw { width: 11px; height: 11px; border-radius: 50%; border: 1px solid rgba(255,255,255,.35); flex: none; }
   .oil-hint {
     font-size: .78rem; color: var(--ink); line-height: 1.5;
     padding: .55rem 1.1rem; border-top: 1px solid var(--line); background: var(--bg-panel);
@@ -89,7 +84,7 @@ permalink: /projects/oil-basins/
      is the only way to keep these credits black. */
   .oil-app .oil-hint a {
     color: var(--ink) !important;
-    text-decoration: underline; text-underline-offset: 2px; text-decoration-color: #b9b3a5;
+    text-decoration: underline; text-underline-offset: 2px; text-decoration-color: #5f5a52;
   }
   .oil-app .oil-hint a:hover { color: var(--accent) !important; text-decoration-color: var(--accent); }
 
@@ -183,7 +178,7 @@ permalink: /projects/oil-basins/
         '<dt>Recoverable oil (past and future)</dt>' +
         '<dd>' + fmt(h.total) + ' billion barrels' +
           '<div class="oil-bar">' +
-            '<i style="width:' + pastPct + '%;background:#7b3f00"></i>' +
+            '<i style="width:' + pastPct + '%;background:#cc4c02"></i>' +
             '<i style="width:' + (100 - pastPct) + '%;background:#fec44f"></i>' +
           '</div>' +
           '<div class="oil-split">' + fmt(h.past) + ' already produced, ' +

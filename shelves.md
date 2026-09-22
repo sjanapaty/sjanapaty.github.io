@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Digital Shelves"
+title: "Bookshelves"
 permalink: /shelves/
 ---
 
