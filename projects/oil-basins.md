@@ -64,7 +64,7 @@ permalink: /projects/oil-basins/
   }
   .oil-panel .close:hover { color: var(--accent); }
   .oil-empty { font-size: .84rem; color: var(--ink-soft); line-height: 1.5; }
-  .oil-empty b { color: var(--ink); }
+  .oil-empty span { color: var(--ink); }
   .oil-panel h2 { margin: 0 0 .1rem; font-size: 1.15rem; padding-right: 1.4rem; font-weight: 700; }
   .oil-panel .where { font-size: .84rem; color: var(--accent); margin-bottom: .7rem; }
   .oil-panel dl { margin: 0 0 .9rem; font-size: .82rem; }
@@ -98,7 +98,7 @@ permalink: /projects/oil-basins/
   <div class="oil-topbar">
     <div>
       <h1>Which geological periods does the world's oil come from?</h1>
-      <p class="subtitle">A map of global oil basins over 500 million years of geology.</p>
+      <p class="subtitle">Global oil basins forming over 500 million years of Earth history</p>
     </div>
     <div class="oil-controls">
       <button type="button" id="oil-replay">Replay</button>
@@ -154,7 +154,7 @@ permalink: /projects/oil-basins/
   var EMPTY_PLAYING = '<p class="oil-empty">The animation runs from 460 million ' +
     'years ago to today. Basins appear when their source rock was laid down, then ' +
     'drift with the continents.</p>';
-  var EMPTY_LIVE = '<p class="oil-empty"><b>Click on any basin for more info!</b></p>';
+  var EMPTY_LIVE = '<p class="oil-empty"><span>Click on any basin for more info!</span></p>';
 
   function closePanel() {
     panel.innerHTML = stage.classList.contains('is-live') ? EMPTY_LIVE : EMPTY_PLAYING;

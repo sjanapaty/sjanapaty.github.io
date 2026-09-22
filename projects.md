@@ -20,7 +20,7 @@ permalink: /projects/
   <h5 class="mb-1">
     <a class="entry-title" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
   </h5>
-  <p class="mb-0 text-muted">{{ item.description }}</p>
+  <p class="mb-0">{{ item.description }}</p>
 </div>
 {% endfor %}
 

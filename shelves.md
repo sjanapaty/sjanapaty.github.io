@@ -23,24 +23,24 @@ permalink: /shelves/
   <li><b>Slow Productivity</b> by Cal Newport</li>
   <li><b>The Search For Modern China</b> by Jonathan D. Spence</li>
   <li><b>The Book of Form and Emptiness</b> by Ruth Ozeki</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Excerpts-from-The-Bitter-Lesson-1c067bc6793f8085b795ed06524607d2">The Bitter Lesson</a> by Rich Sutton</li>
+  <li><b>The Bitter Lesson</b> by Rich Sutton</li>
   <li><b>Children of Time</b> by Adrian Tchaikovsky</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Notes-on-Rapt-1b667bc6793f80f1a534e2fe49b30512"> Rapt</a> by Winnifred Gallagher</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Notes-on-The-Decameron-1db67bc6793f80c1a8aec4ab446e84ed"> The Decameron by Giovanni</a> Bocaccio</li>
+  <li><b>Rapt</b> by Winifred Gallagher</li>
+  <li><b>The Decameron</b> by Giovanni Boccaccio</li>
   <li><b>Love in the Time of Cholera</b> by Gabriel Garcia Marquez</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Excerpts-from-Common-Sense-18967bc6793f80cbb779d6fd0b44696f"> Common Sense</a> by Thomas Paine</li>
+  <li><b>Common Sense</b> by Thomas Paine</li>
   <li><b>Trophic Ecology</b> by James E. Garvey</li>
 </ul>
 
 <h5 class="mt-3 mb-2">2024</h5>
 <ul style="margin-left: 1.5rem; padding-left: 1rem;">
   <li><b>The Curious Incident of the Dog in the Night-Time</b> by Mark Haddon</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Metacommunity-Theory-3-days-15667bc6793f80ce84b1dd357ca41e5b">The Unified Neutral Theory of Biodiversity and Biogeography</a> by Stephen P. Hubbell</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Notes-on-The-Enchiridion-Nov-4-13467bc6793f80cc9067cb165575324b?pvs=74">The Enchiridion </a> by Epictetus</li>
+  <li><b>The Unified Neutral Theory of Biodiversity and Biogeography</b> by Stephen P. Hubbell</li>
+  <li><b>The Enchiridion</b> by Epictetus</li>
   <li><b>The Three Body Problem</b> by Cixin Liu</li>
   <li><b>The Dark Forest</b> by Cixin Liu</li>
   <li><b>Superforecasting: The Art and Science of Prediction</b> by Philip Tetlock</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Notes-on-Meditations-Sep-14-10167bc6793f80fe99ede380723e8794?pvs=73">Meditations</a> by Marcus Aurelius</li>
+  <li><b>Meditations</b> by Marcus Aurelius</li>
   <li><b>Good Economics for Hard Times</b> by Abhijit Banerjee and Esther Duflo</li>
   <li><b>Digital Minimalism</b> by Cal Newport</li>
   <li><b>The Last Lecture</b> by Randy Pausch</li>
@@ -54,7 +54,7 @@ permalink: /shelves/
   <li><b>Do Androids Dream of Electric Sheep?</b> by Philip K. Dick</li>
   <li><b>The Mind-Body Problem</b> by Rebecca Goldstein</li>
   <li><b>Unaccustomed Earth</b> by Jhumpa Lahiri</li>
-  <li><a href="https://shlokavjanapaty.notion.site/Notes-on-The-Prince-f399b80970db4d12ac11f0fe5ee26490?pvs=73"> The Prince </a> by Niccolo Machiavelli</li>
+  <li><b>The Prince</b> by Niccolo Machiavelli</li>
 </ul>
 
 <h5 class="mt-4 mb-2">2023</h5>
@@ -67,7 +67,7 @@ permalink: /shelves/
   <li><b>Remainder</b> by Tom McCarthy</li>
   <li><b>Einstein's Dreams</b> by Alan Lightman</li>
   <li><b>No Country for Old Men</b> by Cormac McCarthy</li>
-  <li><a href="https://shlokavjanapaty.notion.site/The-Sixth-Extinction-Kolbert-a1f63751392d444d88f064b964846795?pvs=74">The Sixth Extinction</a> by Elizabeth Kolbert</li>
+  <li><b>The Sixth Extinction</b> by Elizabeth Kolbert</li>
 </ul>
 
   </div>
