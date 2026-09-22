@@ -27,14 +27,25 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 700;
 }
 
-/* tier 2: sub-headings (the shelves' years) and the linked title of a listing
-   entry, which is a bare anchor rather than a heading, so it needs its own
-   hook. Sized between the body text and the headings above them. */
-h5,
-.entry-title {
+/* tier 2: sub-headings (the shelves' years), sized between the body text and
+   the headings above them. */
+h5 {
   font-family: $bodyFont;
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+/* tier 3: a listing entry's linked title reads as prose, matching the
+   description under it, which is italic. Both are bare tags rather than
+   headings, so they need their own hooks. */
+.entry-title {
+  font-family: $bodyFont;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+
+.entry-desc {
+  font-style: italic;
 }
 
 /* the home page's column headings are h5s but belong to tier 1 */
