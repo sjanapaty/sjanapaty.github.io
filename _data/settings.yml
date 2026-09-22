@@ -2,6 +2,13 @@ menu:
 - {name: 'Projects', url: '/projects/'}
 - {name: 'Digital Shelves', url: '/shelves/'}
 
+# Read by both the home page and /projects/, so a project is listed once here
+# and shows up in both places. Newest first.
+projects:
+- name: "Which geological periods does the world's oil come from?"
+  url: '/projects/oil-basins/'
+  description: 'An interactive map of global oil basins by geological period.'
+
 people:
 - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
 - {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}

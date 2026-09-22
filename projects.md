@@ -15,12 +15,14 @@ permalink: /projects/
 
 <h4 class="fw-bold mt-4">Projects</h4>
 
+{% for item in site.data.settings.projects %}
 <div class="mt-3 mb-4">
   <h5 class="mb-1">
-    <a href="{{ site.github.url }}/projects/oil-basins/">Which geological periods does the world's oil come from?</a>
+    <a href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
   </h5>
-  <p class="mb-0">An interactive map of global oil fields by geological period.</p>
+  <p class="mb-0">{{ item.description }}</p>
 </div>
+{% endfor %}
 
   </div>
 </div>

@@ -103,7 +103,7 @@ permalink: /projects/oil-basins/
   <div class="oil-topbar">
     <div>
       <h1>Which geological periods does the world's oil come from?</h1>
-      <p class="subtitle">An interactive map of global oil fields by geological period.</p>
+      <p class="subtitle">An interactive map of global oil basins by geological period.</p>
     </div>
     <div class="oil-controls">
       <button type="button" id="oil-replay">Replay</button>
@@ -133,9 +133,9 @@ permalink: /projects/oil-basins/
     <a href="https://en.wikipedia.org/wiki/List_of_oil_fields">Wikipedia</a>.
     Source-rock ages from
     <a href="https://www.searchanddiscovery.com/documents/animator/klemme2.htm">Klemme &amp; Ulmishek (1991)</a>.
-    Plate tectonics from
+    Plate tectonics based on
     <a href="https://doi.org/10.1016/j.earscirev.2020.103477">Merdith et al. (2021)</a>.
-    Attribution of interval fractions by Claude.
+    Attribution of interval fractions by Claude based on a lit review.
   </div>
 </div>
 
@@ -159,7 +159,7 @@ permalink: /projects/oil-basins/
   var EMPTY_PLAYING = '<p class="oil-empty">The animation runs from 460 million ' +
     'years ago to today. Basins appear when their source rock was laid down, then ' +
     'drift with the continents.</p>';
-  var EMPTY_LIVE = '<p class="oil-empty"><b>Click any circle for more info!</b></p>';
+  var EMPTY_LIVE = '<p class="oil-empty"><b>Click on any basin for more info!</b></p>';
 
   function closePanel() {
     panel.innerHTML = stage.classList.contains('is-live') ? EMPTY_LIVE : EMPTY_PLAYING;
