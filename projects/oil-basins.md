@@ -151,9 +151,7 @@ permalink: /projects/oil-basins/
     return (n >= 100 ? Math.round(n) : Math.round(n * 10) / 10).toLocaleString();
   }
 
-  var EMPTY_PLAYING = '<p class="oil-empty">The animation runs from 460 million ' +
-    'years ago to today. Basins appear when their source rock was laid down, then ' +
-    'drift with the continents.</p>';
+  var EMPTY_PLAYING = '';
   var EMPTY_LIVE = '<p class="oil-empty"><span>Click on any basin for more info!</span></p>';
 
   function closePanel() {
