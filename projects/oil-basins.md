@@ -98,7 +98,7 @@ permalink: /projects/oil-basins/
   <div class="oil-topbar">
     <div>
       <h1>Which geological periods does the world's oil come from?</h1>
-      <p class="subtitle">Global oil basins forming over 500 million years of Earth history</p>
+      <p class="subtitle">500 million years of oil deposition</p>
     </div>
     <div class="oil-controls">
       <button type="button" id="oil-replay">Replay</button>
