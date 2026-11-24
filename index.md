@@ -2,7 +2,7 @@
 layout: home
 title: "Home"
 ---
-I am a PhD Candidate at Princeton in Ecology and Evolution, where I study evolutionary transitions in symbiosis. My work is supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/about/about-grfp/) and the Robert May Fellowship at Princeton.
+I am a PhD Candidate at Princeton in Ecology and Evolutionary Biology, where I study evolutionary transitions in symbiosis. My work is supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/about/about-grfp/) and the Robert May Fellowship at Princeton.
 
 I am also a Researcher at [Fairer Fields](https://fairerfields.org/), where I build our in-house mathematical models of ecological interventions.
 
