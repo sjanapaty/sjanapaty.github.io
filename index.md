@@ -4,9 +4,11 @@ title: "Home"
 ---
 Hi, I'm Shloka!
 
-I'm a PhD candidate in Ecology and Evolutionary Biology at Princeton co-advised by [Simon Levin](https://eeb.princeton.edu/people/simon-levin) and [Lars Hedin](https://eeb.princeton.edu/people/lars-hedin). I'm also a researcher at [Fairer Fields](https://fairerfields.org/), where we investigate agricultural technology. My work is supported by an [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/about/about-grfp/) and the Robert May Fellowship at Princeton.
+I am a PhD Candidate at Princeton in Ecology and Evolution, where I study evolutionary transitions in symbiosis. Increasingly, I am focused on biosecurity and risks from emerging technologies. My work is supported by a [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/about/about-grfp/) and the Robert May Fellowship at Princeton.
 
-Previously, I earned my bachelors degree in Applied Mathematics from Columbia University.
+I am also a Researcher at [Fairer Fields](https://fairerfields.org/), where I build our in-house mathematical models of ecological interventions. Previously, I was a Summer Research Fellow at [Rethink Priorities](https://rethinkpriorities.org/) (2026) and a visiting researcher at the [Santa Fe Institute](https://www.santafe.edu/) (2025). I hold a U.S. utility patent for methods to degrade low-density polyethylene and treat landfill leachate.
+
+I earned my Bachelor's degree in Applied Mathematics at Columbia, where I was President of the [National Undergraduate Consortium of Science Journalism](https://thenucsj.org/).
 
 You can find my [blog](https://shlokaj.substack.com/) here!
 
