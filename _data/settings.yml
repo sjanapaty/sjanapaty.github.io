@@ -8,10 +8,12 @@ projects:
 - name: "Which geological periods does the world's oil come from?"
   url: '/projects/oil-basins/'
   description: '500 million years of oil deposition'
-- name: "Free-Flow Leakage from Landfill Geomembrane Defects"
+- name: "How much free-flow leakage happens from a landfill geomembrane with defects?"
   url: 'https://demonstrations.wolfram.com/FreeFlowLeakageFromLandfillGeomembraneDefects/'
-- name: "Methylation Index and Analysis of SRB-Mediated Mercury Methylation"
+  description: 'Wolfram Demonstrations Project'
+- name: "How much mercury methylates in rivers, estuaries, and seawater?"
   url: 'https://demonstrations.wolfram.com/MethylationIndexAndAnalysisOfSRBMediatedMercuryMethylation/'
+  description: 'Wolfram Demonstrations Project'
 
 people:
 - {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
