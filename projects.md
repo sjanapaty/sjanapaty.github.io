@@ -18,9 +18,9 @@ permalink: /projects/
 {% for item in site.data.settings.projects %}
 <div class="mt-3 mb-4">
   <h5 class="mb-1">
-    <a class="entry-title" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+    <a class="entry-title" href="{% unless item.url contains '://' %}{{ site.github.url }}{% endunless %}{{ item.url }}">{{ item.name }}</a>
   </h5>
-  <p class="mb-0 entry-desc">{{ item.description }}</p>
+  {% if item.description %}<p class="mb-0 entry-desc">{{ item.description }}</p>{% endif %}
 </div>
 {% endfor %}
 
